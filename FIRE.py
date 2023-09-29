@@ -221,11 +221,11 @@ def animation(u):
 os.system("xdg-open https://www.facebook.com/Shanto.King.Ok.Bro")
 #------------------[ LOGO-LAKNAT ]-----------------#
 logo =""" 
-\033[0;92m╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗
+\033[0;92m╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗
     ░█▀▀▀█ ░█─░█ ─█▀▀█ ░█▄─░█ ▀▀█▀▀ ░█▀▀▀█ 
     ─▀▀▀▄▄ ░█▀▀█ ░█▄▄█ ░█░█░█ ─░█── ░█──░█ 
     ░█▄▄▄█ ░█─░█ ░█─░█ ░█──▀█ ─░█── ░█▄▄▄█
-\033[0;92m╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝               \033[0;92m
+\033[0;92m╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝               \033[0;92m
 ╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗
 ║\33[0;41m        [ WORKING ONLY MOBILE DATA ]         \033[0;92m║
 ╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝
@@ -583,18 +583,14 @@ def passwrd():
                     pwv.append(frs+'123')
                     pwv.append(frs+'1234')
                     pwv.append(frs+'12345')
-                    pwv.append(frs+'123456')
                     pwv.append(nmf)
-                    pwv.append('57273200')
                     pwv.append(frs+'@123')
                     pwv.append(frs+'@')
                     pwv.append(frs+'@@')
                     pwv.append(frs+'@@@')
-                    pwv.append(frs+'@@@@')
                     pwv.append(frs+'@#')
                     pwv.append(frs+'1122')
                     pwv.append(frs+'11')
-                    pwv.append(frs+'111')
             else:
                 if len(frs)<3:
                     pwv.append(nmf)
@@ -603,18 +599,14 @@ def passwrd():
                     pwv.append(frs+'123')
                     pwv.append(frs+'1234')
                     pwv.append(frs+'12345')
-                    pwv.append(frs+'123456')
                     pwv.append(nmf)
-                    pwv.append('57273200')
                     pwv.append(frs+'@123')
                     pwv.append(frs+'@')
                     pwv.append(frs+'@@')
                     pwv.append(frs+'@@@')
-                    pwv.append(frs+'@@@@')
                     pwv.append(frs+'@#')
                     pwv.append(frs+'1122')
                     pwv.append(frs+'11')
-                    pwv.append(frs+'111')
             if 'ya' in pwpluss:
                 for xpwd in pwnya:
                     pwv.append(xpwd)
