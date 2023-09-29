@@ -85,6 +85,60 @@ for x in range(10):
     k=random.randrange(1, 9)
     l='Mobile WVGA SMM-MMS/1.2.0 OPN-B'
     uak=f'{a}{b}/{c}{d}{e}{f}{g}{h}{i}{j}.{k} {l}'
+def alvino_xy(u):
+        for e in u + "\n":sys.stdout.write(e);sys.stdout.flush();time.sleep(0.005)
+def SHANTOj(u):
+        for e in u + "\n":sys.stdout.write(e);sys.stdout.flush();time.sleep(0.01)
+def clear():
+	os.system('clear')
+def back():
+	login()
+	
+	import getpass
+ 
+attemps = 0
+ 
+while attemps < 12345677901:
+    username = input(' \033[0;92mEnter Username: ')
+    password = input(' \033[0;93mEnter Password: ')
+ 
+    if username == 'R' and password == 'J':
+        print(' \033[0;92mYou Have Successfully Logged in.')
+        break
+    else:
+        print(' Incorrect Pass Please Trying ')
+        attemps += 1
+        continue
+os.system('clear')
+
+# CLEAR
+def clear():
+	os.system('clear')
+# BACK
+def back():
+	login()
+def chk(): 
+  uuid = str(os.geteuid()) + str(os.getlogin()) 
+  id = "|".join(uuid) 
+  print("\n\n\x1b[37;1m  YOUR ID : "+id) 
+  try: 
+    httpCaht = requests.get("https://github.com/SHANTO-KING/Approval/blob/main/Approval.txt").text 
+    if id in httpCaht: 
+      print("\033[92m  WELCOME PAID USER ENJOY. .......\033[97m") 
+      msg = str(os.geteuid()) 
+      time.sleep(1) 
+      pass 
+    else: 
+      print("\x1b[91m YOUR ID IS NOT ACTIVEðŸ˜¡ SEND MESSAGE ON WHATSAPP\033[97m") 
+      #os.system('xdg-open https://wa.me/+2349055012862')
+      time.sleep(1) 
+      sys.exit() 
+  except: 
+    sys.exit() 
+    if name == '__main__': 
+     print (logo)
+     chk() 
+
 def uaku():
     try:
         ua=open('bbnew.txt','r').read().splitlines()
