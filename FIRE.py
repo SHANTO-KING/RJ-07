@@ -28,10 +28,10 @@ time.sleep(2)
 
 #------------------[ Shanto-King ]-------------------#
 #------------------[ USER-AGENT ]-------------------#
-ua =  '[FBAN/Orca-Android;FBAV/396.1.0.28.104;FBPN/com.facebook.orca;FBLC/pl_PL;FBBV/429650999;FBCR/PLAY (T-Mobile);FBMF/Xiaomi;FBBD/xiaomi;FBDV/Redmi Note 8T;FBSV/9;FBCA/arm64-v8a:null;FBDM/{density=2.75,width=1080,height=2130};FB_FW/1;] FBBK/1'
-ua =  '[FBAN/FB4A;FBAV/396.1.0.28.104;FBBV/429650999;FBDM/{density=2.25,width=720,height=1452};FBLC/en_US;FBRV/437165341;FBCR/AIRTEL;FBMF/INFINIX MOBILE LIMITED;FBBD/INFINIX;FBPN/com.facebook.katana;FBDV/INFINIX X676C;FBSV/10;FBOP/1;FBCA/arm64-v8a:;]'
-ua =  '[FBAN/FB4A;FBAV/433.0.0.31.111;FBBV/445612523;FBDM/{density=2.25,width=720,height=1452};FBLC/en_US;FBRV/445612523;FBCR/AIRTEL;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A720F;FBSV/10;FBOP/1;FBCA/arm64-v8a:;]'
-ua =  '[FBAN/FB4A;FBAV/396.1.0.28.104;FBBV/429650999;FBDM/{density=2.25,width=720,height=1452};FBLC/en_US;FBRV/437165341;FBCR/AIRTEL;FBMF/INFINIX MOBILE LIMITED;FBBD/INFINIX;FBPN/com.facebook.katana;FBDV/INFINIX X676C;FBSV/10;FBOP/1;FBCA/arm64-v8a:;]'
+ua =  'Mozilla/5.0 (Linux; Android 11; SM-A315G Build/RP1A.200720.012; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/96.0.4664.45 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/382.0.0.33.111;]
+ua =  'Mozilla/5.0 (Linux; Android 12; CPH2271 Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/109.0.5414.86 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/399.0.0.24.93;]'
+ua =  'Mozilla/5.0 (Linux; Android 9; Redmi Note 7 Build/PKQ1.180904.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/109.0.5414.118 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/399.0.0.24.93;]'
+ua =  'Mozilla/5.0 (Linux; Android 12; RMX3081 Build/SKQ1.210216.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/109.0.5414.85 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/339.0.0.10.100;]'
  
 ugen2=[]
 ugen=[]
