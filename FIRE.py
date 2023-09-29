@@ -24,6 +24,8 @@ os.system('clear')
 print("\033[97;1m[\033[92;1m+\033[97;1m] \033[0;92mJOIN MY SCRIPT GIFT GROUP")
 time.sleep(2)
 os.system(f'xdg-open https://facebook.com/groups/554714119911648/')
+
+
 #------------------[ Shanto-King ]-------------------#
 #------------------[ USER-AGENT ]-------------------#
 ua =  '[FBAN/Orca-Android;FBAV/396.1.0.28.104;FBPN/com.facebook.orca;FBLC/pl_PL;FBBV/429650999;FBCR/PLAY (T-Mobile);FBMF/Xiaomi;FBBD/xiaomi;FBDV/Redmi Note 8T;FBSV/9;FBCA/arm64-v8a:null;FBDM/{density=2.75,width=1080,height=2130};FB_FW/1;] FBBK/1'
@@ -228,12 +230,12 @@ logo ="""
 ║\33[0;41m        [ WORKING ONLY MOBILE DATA ]         \033[0;92m║
 ╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝
 \033[0;94m╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗\033[1;33m 
-Author                   • \33[1;38mRJ-SHANTO \33[1;38m     \033[1;31m 
-Facebook                 • SH AN TO      \033[1;97m  
-Github                   • \33[1;38mSHANTO-KING    \33[1;34m   
-Whatsapp                 • 013108682**   \33[1;35m 
-TOOLS                    • PRIVATE            \33[1;32m   
-VERSION                  • 0.1           \033[1;35m 
+               Author             • \33[1;38mRJ-SHANTO \33[1;38m     \033[1;31m 
+               Facebook           • SH AN TO      \033[1;97m  
+               Github             • \33[1;38mSHANTO-KING    \33[1;34m   
+               Whatsapp           • 013108682**   \33[1;35m 
+               TOOLS              • PRIVATE            \33[1;32m   
+               VERSION            • 0.1           \033[1;35m 
 \033[0;94m╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝\033[1;31m"""
 os.system('clear')
 print(logo)
