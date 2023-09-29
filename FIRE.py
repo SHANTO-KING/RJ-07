@@ -86,6 +86,8 @@ for x in range(10):
     l='Mobile WVGA SMM-MMS/1.2.0 OPN-B'
     uak=f'{a}{b}/{c}{d}{e}{f}{g}{h}{i}{j}.{k} {l}'
 
+
+
 def alvino_xy(u):
         for e in u + "\n":sys.stdout.write(e);sys.stdout.flush();time.sleep(0.005)
 def SHANTOj(u):
@@ -124,30 +126,6 @@ def uaku():
         for un in aa:
             ua.write(un+'\n')
         ua=open('bbnew.txt','r').read().splitlines()
-        
-        # CLEAR
-def clear():
-	os.system('clear')
-# BACK
-def back():
-	login()
-def chk(): 
-  uuid = str(os.geteuid()) + str(os.getlogin()) 
-  id = "|".join(uuid) 
-  print("\n\n\x1b[37;1m  YOUR ID : "+id) 
-  try: 
-    httpCaht = requests.get("https://github.com/SHANTO-KING/Approval/blob/main/Approval.txt").text 
-    if id in httpCaht: 
-      print("\033[92m  WELCOME PAID USER ENJOY. .......\033[97m") 
-      msg = str(os.geteuid()) 
-      time.sleep(1) 
-      pass 
-    else: 
-      print("\x1b[91m YOUR ID IS NOT ACTIVEðŸ˜¡ SEND MESSAGE ON WHATSAPP\033[97m") 
-      #os.system('xdg-open https://wa.me/+2349055012862')
-      time.sleep(1) 
-      sys.exit() 
-     
  
 #------------[ INDICATION ]---------------#
 id,id2,loop,ok,cp,akun,oprek,method,lisensiku,taplikasi,tokenku,uid,lisensikuni= [],[],0,0,0,[],[],[],[],[],[],[],[]
