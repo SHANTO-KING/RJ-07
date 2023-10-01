@@ -27,12 +27,12 @@ from rich.text import Text as tekz
 pretty.install()
 CON=sol()
 #------------------[ USER-AGENT ]-------------------#
-##ua = 'Mozilla/5.0 (Linux; U; Android 11; pl-pl; Redmi K30S Ultra Build/RKQ1.200826.002) AppleWebKit/537.36 (KHTML, wie Gecko) Version/4.0 Chrome/89.0.4389.116 Mobile Safari/537.36 XiaoMi/MiuiBrowser/12.15 .2-gn'
-##ua = 'Mozilla/5.0 (Linux; U; Android 11; ru-ru; Redmi K30S Ultra Build/RKQ1.200826.002) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/79.0.3945.147 Mobile Safari/537.36 XiaoMi/MiuiBrowser/12.12.0-gn'
-##ua = 'Mozilla/5.0 (Linux; U; Android 11; ru-ru; Mi 11 LE Build/RKQ1.210503.001) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/89.0.4389.116 Mobile Safari/537.36 XiaoMi/MiuiBrowser/12.16.2-gn'
-##ua = ["Mozilla/5.0 (Linux; Android 13; 21081111RG Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/115.0.5790.166 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/423.0.0.21.64]",]
-##ua = 'Mozilla/5.0 (Linux; U; Android 11; ru-ru; Mi 11 LE Build/RKQ1.210503.001) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/89.0.4389.116 Mobile Safari/537.36 XiaoMi/MiuiBrowser/12.16.2-gn'
-##ua = 'Mozilla/5.0 (Linux; U; Android 10; pl-pl; MI 8 Build/QKQ1.190828.002) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/71.0.3578.141 Mobile Safari/537.36 XiaoMi/MiuiBrowser/12.8.33'
+ua = 'Mozilla/5.0 (Linux; U; Android 11; pl-pl; Redmi K30S Ultra Build/RKQ1.200826.002) AppleWebKit/537.36 (KHTML, wie Gecko) Version/4.0 Chrome/89.0.4389.116 Mobile Safari/537.36 XiaoMi/MiuiBrowser/12.15 .2-gn'
+ua = 'Mozilla/5.0 (Linux; U; Android 11; ru-ru; Redmi K30S Ultra Build/RKQ1.200826.002) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/79.0.3945.147 Mobile Safari/537.36 XiaoMi/MiuiBrowser/12.12.0-gn'
+ua = 'Mozilla/5.0 (Linux; U; Android 11; ru-ru; Mi 11 LE Build/RKQ1.210503.001) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/89.0.4389.116 Mobile Safari/537.36 XiaoMi/MiuiBrowser/12.16.2-gn'
+ua = ["Mozilla/5.0 (Linux; Android 13; 21081111RG Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/115.0.5790.166 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/423.0.0.21.64]",]
+ua = 'Mozilla/5.0 (Linux; U; Android 11; ru-ru; Mi 11 LE Build/RKQ1.210503.001) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/89.0.4389.116 Mobile Safari/537.36 XiaoMi/MiuiBrowser/12.16.2-gn'
+ua = 'Mozilla/5.0 (Linux; U; Android 10; pl-pl; MI 8 Build/QKQ1.190828.002) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/71.0.3578.141 Mobile Safari/537.36 XiaoMi/MiuiBrowser/12.8.33'
 ua = 'Mozilla/5.0 (Linux; U; Android 10; vi-vn; Redmi K20 Pro Build/QKQ1.190716.003) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/71.0.3578.141 Mobile Safari/537.36 XiaoMi/MiuiBrowser/11.0.11'
 ua = 'LightSpeed [FBAN/MessengerLiteForiOS;FBAV/390.0.0.20.104;FBBV/428146516;FBDV/iPhone13,1;FBMD/iPhone;FBSN/iOS;FBSV/16.1.2;FBSS/3;FBCR/;FBID/phone;FBLC/it;FBOP/0]'
 ua = 'Mozilla/5.0 (Linux; U; Android 13; zh-tw; 2206122SC Build/TKQ1.220829.002) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/109.0.5414.118 Mobile Safari/537.36 XiaoMi/MiuiBrowser/17.8.70926 swan-mibrowser'
@@ -173,6 +173,39 @@ while attemps < 12345677901:
         attemps += 1
         continue
 os.system('clear')
+
+#----------------------[CHECK CREATION YEAR]----------------#         
+def joined(cid):
+    if len(cid)==15:
+        if cid[:10] in ['1000000000']       :creation = ' 2009'
+        elif cid[:9] in ['100000000']       :creation = ' 2009'
+        elif cid[:8] in ['10000000']        :creation = ' 2009'
+        elif cid[:7] in ['1000000','1000001','1000002','1000003','1000004','1000005']:creation = ' 2009'
+        elif cid[:7] in ['1000006','1000007','1000008','1000009']:creation = ' 2010'
+        elif cid[:6] in ['100001']          :creation = ' 2010 | 2011'
+        elif cid[:6] in ['100002','100003'] :creation = ' 2011 | 2012'
+        elif cid[:6] in ['100004']          :creation = ' 2012 | 2013'
+        elif cid[:6] in ['100005','100006'] :creation = ' 2013 | 2014'
+        elif cid[:6] in ['100007','100008'] :creation = ' 2014 | 2015'
+        elif cid[:6] in ['100009']          :creation = ' 2015' 
+        elif cid[:5] in ['10001']           :creation = ' 2015 | 2016'
+        elif cid[:5] in ['10002']           :creation = ' 2016 | 2017'
+        elif cid[:5] in ['10003']           :creation = ' 2018 | 2019'
+        elif cid[:5] in ['10004']           :creation = ' 2019 | 2020'
+        elif cid[:5] in ['10005']           :creation = ' 2020'
+        elif cid[:5] in ['10006','10007']   :creation = ' 2021'
+        elif cid[:5] in ['10008']           :creation = ' 2022/2023'
+        elif cid[:5] in ['10009']           :creation = ' 2023'
+        elif cid[:5] in ['61550']           :creation = ' 2023'
+        else:creation=''
+    elif len(cid) in [9,10]:
+        creation = ' 2008 | 2009'
+    elif len(cid)==8:
+        creation = ' 2007 | 2008'
+    elif len(cid)==7:
+        creation = ' 2006 | 2007'
+    else:creation=''
+    return creation
 #------------------[ MAIN ]-----------------#
 
 def banner():
