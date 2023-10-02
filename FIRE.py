@@ -27,13 +27,7 @@ from rich.text import Text as tekz
 pretty.install()
 CON=sol()
 #------------------[ USER-AGENT ]-------------------#
-ua = 'Mozilla/5.0 (Linux; Android 13; 21081111RG Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/115.0.5790.166 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/423.0.0.21.64]",]
- ua = 'Mozilla/5.0 (Linux; Android 13; TECNO KI7 Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/108.0.5359.128 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/429.0.0.27.114;]'
- ua = 'Mozilla/5.0 (Linux; U; Android 12; en-gb; Mi 10T Pro Build/SKQ1.211006.001) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/112.0.5615.136 Mobile Safari/537.36 XiaoMi/MiuiBrowser/13.35.0-gn'
- ua = 'Mozilla/5.0 (Linux; Android 13; 2210132C Build/TKQ1.220905.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/115.0.5790.138 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/425.0.0.22.49;]'
- ua = 'Mozilla/5.0 (Linux; Android 12; M2102J20SG) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36'
- ua = 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/13.2b11866 Mobile/16A366 Safari/605.1.15'
- ua = 'Mozilla/5.0 (Linux; U; Android 4.2.2; he-il; NEO-X5-116A Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30'
+ua=random.choice(ugen)
 ugen2=[]
 ugen=[]
 cokbrut=[]
@@ -46,51 +40,29 @@ try:
 except Exception as e:
 	print('[[\x1b[1;92m+\x1b[1;97m] [\x1b[1;96mSHANTO')
 prox=open('.prox.txt','r').read().splitlines()
-for xd in range(1000):
-	a='Mozilla/5.0 (Symbian/3; Series60/'
-	b=random.randrange(1, 9)
-	c=random.randrange(1, 9)
-	d='Nokia'
-	e=random.randrange(1000, 9999)
-	f='/110.021.0028; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/535.1 (KHTML, like Gecko) NokiaBrowser/'
-	g=random.randrange(1, 9)
-	h=random.randrange(1, 4)
-	i=random.randrange(1, 4)
-	j=random.randrange(1, 4)
-	k='Mobile Safari/535.1'
-	uaku=(f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}.{j} {k}')
-	ugen2.append(uaku)
- 
- 
-	aa='Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X)'
-	b=random.choice(['6','7','8','9','10','11','12'])
-	c=' en-us; GT-'
-	d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-	e=random.randrange(1, 999)
-	f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-	g='AppleWebKit/605.1.15 (KHTML, like Gecko) Chrome/'
-	h=random.randrange(73,100)
-	i='0'
-	j=random.randrange(4200,4900)
-	k=random.randrange(40,150)
-	l='Mobile/15E148 Safari/605.1'
-	uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
-	ugen.append(uaku2)
-for x in range(10):
-	a='Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-S'
-	b=random.randrange(1000, 9999)
-	c=random.randrange(1000, 9999)
-	d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-	e=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-	f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-	g=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-	h=random.randrange(1, 9)
-	i='; U; Bada/1.2; en-us) AppleWebKit/537.36 (KHTML, like Gecko) Dolfin/'
-	j=random.randrange(1, 9)
-	k=random.randrange(1, 9)
-	l='Mobile/18G82 [FBAN/FBIOS;FBAV/333.0.0.30.109;FBBV/313309308;FBDV/iPhone10,5;FBMD/iPhone;FBSN/iOS;FBSV/14.7.1;FBSS/3;FBID/phone;FBLC/pt_BR;FBOP/5;FBRV/315505842]'
-	uak=f'{a}{b}/{c}{d}{e}{f}{g}{h}{i}{j}.{k} {l}'
- 
+
+ for agent in range(random.randint(89999, 150000)):
+    a='Mozilla/5.0 (Linux; U; Android'
+    b=random.choice(['10','11','12','13'])
+    c='; en-us; MI CC9 Pro Premium Edition Build/RKQ1.200826.002; wv)'
+    d=random.randrange(7,13)
+    e='en-us; GT-'
+    f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+    g=random.randrange(111,999)
+    h=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+    i='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/'
+    j=random.randrange(11,99)
+    k='0'
+    l=random.randrange(1111,9999)
+    m=random.randrange(11,99)
+    n='Mobile Safari/537.36'
+    o='XiaoMi/MiuiBrowser/'
+    p=random.randrange(11,99)
+    q=random.randrange(11,99)
+    r=random.randrange(1,9)
+    s='-gn'
+    fullagent=f'{a} {b}{c} {d};  {e}{f}{g}{h}) {i}{j}.{k}.{l}.{m} {n} {o}{p}.{q}.{r}{s}'
+    ugen.append(fullagent)
  
  
 def uaku():
@@ -171,38 +143,6 @@ while attemps < 12345677901:
         continue
 os.system('clear')
 
-#----------------------[CHECK CREATION YEAR]----------------#         
-def joined(cid):
-    if len(cid)==15:
-        if cid[:10] in ['1000000000']       :creation = ' 2009'
-        elif cid[:9] in ['100000000']       :creation = ' 2009'
-        elif cid[:8] in ['10000000']        :creation = ' 2009'
-        elif cid[:7] in ['1000000','1000001','1000002','1000003','1000004','1000005']:creation = ' 2009'
-        elif cid[:7] in ['1000006','1000007','1000008','1000009']:creation = ' 2010'
-        elif cid[:6] in ['100001']          :creation = ' 2010 | 2011'
-        elif cid[:6] in ['100002','100003'] :creation = ' 2011 | 2012'
-        elif cid[:6] in ['100004']          :creation = ' 2012 | 2013'
-        elif cid[:6] in ['100005','100006'] :creation = ' 2013 | 2014'
-        elif cid[:6] in ['100007','100008'] :creation = ' 2014 | 2015'
-        elif cid[:6] in ['100009']          :creation = ' 2015' 
-        elif cid[:5] in ['10001']           :creation = ' 2015 | 2016'
-        elif cid[:5] in ['10002']           :creation = ' 2016 | 2017'
-        elif cid[:5] in ['10003']           :creation = ' 2018 | 2019'
-        elif cid[:5] in ['10004']           :creation = ' 2019 | 2020'
-        elif cid[:5] in ['10005']           :creation = ' 2020'
-        elif cid[:5] in ['10006','10007']   :creation = ' 2021'
-        elif cid[:5] in ['10008']           :creation = ' 2022/2023'
-        elif cid[:5] in ['10009']           :creation = ' 2023'
-        elif cid[:5] in ['61550']           :creation = ' 2023'
-        else:creation=''
-    elif len(cid) in [9,10]:
-        creation = ' 2008 | 2009'
-    elif len(cid)==8:
-        creation = ' 2007 | 2008'
-    elif len(cid)==7:
-        creation = ' 2006 | 2007'
-    else:creation=''
-    return creation
 #------------------[ MAIN ]-----------------#
 
 def banner():
