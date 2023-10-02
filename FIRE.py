@@ -41,7 +41,7 @@ except Exception as e:
 	print('[[\x1b[1;92m+\x1b[1;97m] [\x1b[1;96mSHANTO')
 prox=open('.prox.txt','r').read().splitlines()
 
- for agent in range(random.randint(89999, 150000)):
+for agent in range(random.randint(89999, 150000)):
     a='Mozilla/5.0 (Linux; U; Android'
     b=random.choice(['10','11','12','13'])
     c='; en-us; MI CC9 Pro Premium Edition Build/RKQ1.200826.002; wv)'
