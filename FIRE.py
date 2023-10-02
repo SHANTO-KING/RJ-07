@@ -27,10 +27,19 @@ from rich.text import Text as tekz
 pretty.install()
 CON=sol()
 #------------------[ USER-AGENT ]-------------------#
-ua=random.choice(ugen)
+ua=random.choice(ugen2)
 ugen2=[]
 ugen=[]
 cokbrut=[]
+ses=requests.Session()
+princp=[]
+try:
+	prox= requests.get('https://github.com/Pro-Max-420/Api/blob/main/prox.txt').text
+	open('.prox.txt','w').write(prox)
+	
+except Exception as e:
+	print('[[\x1b[1;92m+\x1b[1;97m] [\x1b[1;96mSHANTO')
+prox=open('.prox.txt','r').read().splitlines()
 
 for agent in range(random.randint(89999, 150000)):
     a='Mozilla/5.0 (Linux; U; Android'
