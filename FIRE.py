@@ -1,4 +1,4 @@
-#GITHUB-SHANTO-KING
+  #GITHUB-SHANTO-KING
 #ACTIVE FILE CLONING
 #ONLY ACTIVE ACCOUNT FOR GAME ACCOUNT USE FILE 10000 
 #DEC-FUCK-YOUR-MOM-DON'T-BYPASS-MY-COMMAND
@@ -28,11 +28,11 @@ pretty.install()
 CON=sol()
 #------------------[ USER-AGENT ]-------------------#
 ua = 'Mozilla/5.0 (Linux; U; Android 11; pl-pl; Redmi K30S Ultra Build/RKQ1.200826.002) AppleWebKit/537.36 (KHTML, wie Gecko) Version/4.0 Chrome/89.0.4389.116 Mobile Safari/537.36 XiaoMi/MiuiBrowser/12.15 .2-gn'
-ua = 'Mozilla/5.0 (Linux; U; Android 11; ru-ru; Redmi K30S Ultra Build/RKQ1.200826.002) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/79.0.3945.147 Mobile Safari/537.36 XiaoMi/MiuiBrowser/12.12.0-gn'
+ua = 'Mozilla/5.0 (Linux; U; Android 12; en-gb; Mi 10T Pro Build/SKQ1.211006.001) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/112.0.5615.136 Mobile Safari/537.36 XiaoMi/MiuiBrowser/13.35.0-gn'
 ua = 'Mozilla/5.0 (Linux; U; Android 11; ru-ru; Mi 11 LE Build/RKQ1.210503.001) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/89.0.4389.116 Mobile Safari/537.36 XiaoMi/MiuiBrowser/12.16.2-gn'
-ua = ["Mozilla/5.0 (Linux; Android 13; 21081111RG Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/115.0.5790.166 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/423.0.0.21.64]",]
+ua = 'Mozilla/5.0 (Linux; Android 13; 2210132C Build/TKQ1.220905.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/115.0.5790.138 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/425.0.0.22.49;]'
 ua = 'Mozilla/5.0 (Linux; U; Android 11; ru-ru; Mi 11 LE Build/RKQ1.210503.001) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/89.0.4389.116 Mobile Safari/537.36 XiaoMi/MiuiBrowser/12.16.2-gn'
-ua = 'Mozilla/5.0 (Linux; U; Android 10; pl-pl; MI 8 Build/QKQ1.190828.002) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/71.0.3578.141 Mobile Safari/537.36 XiaoMi/MiuiBrowser/12.8.33'
+ua = 'Mozilla/5.0 (Linux; U; Android 12; en-gb; Mi 10T Pro Build/SKQ1.211006.001) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/112.0.5615.136 Mobile Safari/537.36 XiaoMi/MiuiBrowser/13.35.0-gn'
 ua = 'Mozilla/5.0 (Linux; U; Android 10; vi-vn; Redmi K20 Pro Build/QKQ1.190716.003) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/71.0.3578.141 Mobile Safari/537.36 XiaoMi/MiuiBrowser/11.0.11'
 ua = 'LightSpeed [FBAN/MessengerLiteForiOS;FBAV/390.0.0.20.104;FBBV/428146516;FBDV/iPhone13,1;FBMD/iPhone;FBSN/iOS;FBSV/16.1.2;FBSS/3;FBCR/;FBID/phone;FBLC/it;FBOP/0]'
 ua = 'Mozilla/5.0 (Linux; U; Android 13; zh-tw; 2206122SC Build/TKQ1.220829.002) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/109.0.5414.118 Mobile Safari/537.36 XiaoMi/MiuiBrowser/17.8.70926 swan-mibrowser'
@@ -49,28 +49,50 @@ try:
 except Exception as e:
 	print('[[\x1b[1;92m+\x1b[1;97m] [\x1b[1;96mSHANTO')
 prox=open('.prox.txt','r').read().splitlines()
-for agent in range(random.randint(89999, 150000)):
-    a='Mozilla/5.0 (Linux; U; Android'
-    b=random.choice(['10','11','12','13'])
-    c='; en-us; MI CC9 Pro Premium Edition Build/RKQ1.200826.002; wv)'
-    d=random.randrange(7,13)
-    e='en-us; GT-'
-    f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-    g=random.randrange(111,999)
-    h=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-    i='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/'
-    j=random.randrange(11,99)
-    k='0'
-    l=random.randrange(1111,9999)
-    m=random.randrange(11,99)
-    n='Mobile Safari/537.36'
-    o='XiaoMi/MiuiBrowser/'
-    p=random.randrange(11,99)
-    q=random.randrange(11,99)
-    r=random.randrange(1,9)
-    s='-gn'
-    fullagent=f'{a} {b}{c} {d};  {e}{f}{g}{h}) {i}{j}.{k}.{l}.{m} {n} {o}{p}.{q}.{r}{s}'
-    ugen.append(fullagent)
+for xd in range(1000):
+	a='Mozilla/5.0 (Symbian/3; Series60/'
+	b=random.randrange(1, 9)
+	c=random.randrange(1, 9)
+	d='Nokia'
+	e=random.randrange(1000, 9999)
+	f='/110.021.0028; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/535.1 (KHTML, like Gecko) NokiaBrowser/'
+	g=random.randrange(1, 9)
+	h=random.randrange(1, 4)
+	i=random.randrange(1, 4)
+	j=random.randrange(1, 4)
+	k='Mobile Safari/535.1'
+	uaku=(f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}.{j} {k}')
+	ugen2.append(uaku)
+ 
+ 
+	aa='Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X)'
+	b=random.choice(['6','7','8','9','10','11','12'])
+	c=' en-us; GT-'
+	d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+	e=random.randrange(1, 999)
+	f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+	g='AppleWebKit/605.1.15 (KHTML, like Gecko) Chrome/'
+	h=random.randrange(73,100)
+	i='0'
+	j=random.randrange(4200,4900)
+	k=random.randrange(40,150)
+	l='Mobile/15E148 Safari/605.1'
+	uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
+	ugen.append(uaku2)
+for x in range(10):
+	a='Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-S'
+	b=random.randrange(1000, 9999)
+	c=random.randrange(1000, 9999)
+	d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+	e=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+	f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+	g=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+	h=random.randrange(1, 9)
+	i='; U; Bada/1.2; en-us) AppleWebKit/537.36 (KHTML, like Gecko) Dolfin/'
+	j=random.randrange(1, 9)
+	k=random.randrange(1, 9)
+	l='Mobile/18G82 [FBAN/FBIOS;FBAV/333.0.0.30.109;FBBV/313309308;FBDV/iPhone10,5;FBMD/iPhone;FBSN/iOS;FBSV/14.7.1;FBSS/3;FBID/phone;FBLC/pt_BR;FBOP/5;FBRV/315505842]'
+	uak=f'{a}{b}/{c}{d}{e}{f}{g}{h}{i}{j}.{k} {l}'
  
  
  
