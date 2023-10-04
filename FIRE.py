@@ -27,13 +27,6 @@ from rich.text import Text as tekz
 pretty.install()
 CON=sol()
 #------------------[ USER-AGENT ]-------------------#
-ua = 'Mozilla/5.0 (Linux; U; Android 11; pl-pl; Redmi K30S Ultra Build/RKQ1.200826.002) AppleWebKit/537.36 (KHTML, wie Gecko) Version/4.0 Chrome/89.0.4389.116 Mobile Safari/537.36 XiaoMi/MiuiBrowser/12.15 .2-gn'
-ua = 'Mozilla/5.0 (Linux; U; Android 11; ru-ru; Redmi K30S Ultra Build/RKQ1.200826.002) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/79.0.3945.147 Mobile Safari/537.36 XiaoMi/MiuiBrowser/12.12.0-gn'
-ua = ["Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_5 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G36 [FBAN/FBIOS;FBDV/iPhone4,1;FBMD/iPhone;FBSN/iPhone OS;FBSV/9.3.5;FBSS/2;FBID/phone;FBLC/en_US;FBOP/5;FBCR/Djezzy]",]
-ua = ["Dalvik/2.1.0 (Android 9; L-03K Build/PKQ1.190522.001) [FBAN/FB4A;FBAV/979.2.9.20.981;FBPN/com.facebook.katana;FBLC/en_US;FBBV/687217741;FBCR/Glo Mobile;FBMF/samsung;FBBD/samsung;FBDV/SM-N986N;FBSV/11;FBCA/x86:armeabi-v7a;FBDM/{density=2.5,width=1080,height=2220};FB_FW/0;FBRV/0;]",]
-ua = ["Mozilla/5.0 (Linux; Android 11; CPH2269 Build/RP1A.200720.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/115.0.5790.138 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/425.0.0.22.49;]",]
-ua = ["Mozilla/5.0 (Linux; Android 13; 21081111RG Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/115.0.5790.166 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/423.0.0.21.64]",]
-ua = ["Mozilla/5.0 (Linux; Android 11; SM-S205DL Build/RP1A.200720.012; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/117.0.0.0 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/433.0.0.31.111;]",]
 ugen2=[]
 ugen=[]
 cokbrut=[]
@@ -52,32 +45,32 @@ for xd in range(1000):
 	c=random.randrange(1, 9)
 	d='Nokia'
 	e=random.randrange(1000, 9999)
-	f='/110.021.0028; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/535.1 (KHTML, like Gecko) NokiaBrowser/'
+	f='5.3 NokiaN8-00; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/533.4 (KHTML, like Gecko) NokiaBrowser/'
 	g=random.randrange(1, 9)
 	h=random.randrange(1, 4)
 	i=random.randrange(1, 4)
 	j=random.randrange(1, 4)
-	k='Mobile Safari/535.1'
+	k='Safari/533.4 3gpp-gba'
 	uaku=(f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}.{j} {k}')
 	ugen2.append(uaku)
  
  
-	aa='Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X)'
+	aa='Mozilla/5.0 (iPhone; CPU iPhone OS 17_0_2 like Mac OS X)'
 	b=random.choice(['6','7','8','9','10','11','12'])
 	c=' en-us; GT-'
 	d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
 	e=random.randrange(1, 999)
 	f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-	g='AppleWebKit/605.1.15 (KHTML, like Gecko) Chrome/'
+	g='WebKit/8616 (KHTML, like Gecko)'
 	h=random.randrange(73,100)
 	i='0'
 	j=random.randrange(4200,4900)
 	k=random.randrange(40,150)
-	l='Mobile/15E148 Safari/605.1'
+	l='Mobile/21A350 [FBAN/FBIOS;FBDV/iPhone15,5;FBMD/iPhone;FBSN/iOS;FBSV/17.0.2;FBSS/3;FBID/phone;FBLC/en_US;FBOP/5]'
 	uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
 	ugen.append(uaku2)
 for x in range(10):
-	a='Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-S'
+	a='Mozilla/5.0 (XIAOMI; XIAOMI-GT-S'
 	b=random.randrange(1000, 9999)
 	c=random.randrange(1000, 9999)
 	d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
@@ -85,10 +78,10 @@ for x in range(10):
 	f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
 	g=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
 	h=random.randrange(1, 9)
-	i='; U; Bada/1.2; en-us) AppleWebKit/537.36 (KHTML, like Gecko) Dolfin/'
+	i='; vi-vn; Redmi K20 Pro Build/QKQ1.190716.003)'
 	j=random.randrange(1, 9)
 	k=random.randrange(1, 9)
-	l='Mobile/18G82 [FBAN/FBIOS;FBAV/333.0.0.30.109;FBBV/313309308;FBDV/iPhone10,5;FBMD/iPhone;FBSN/iOS;FBSV/14.7.1;FBSS/3;FBID/phone;FBLC/pt_BR;FBOP/5;FBRV/315505842]'
+	l='Mobile Safari/537.36 XiaoMi/MiuiBrowser/11.0.11'
 	uak=f'{a}{b}/{c}{d}{e}{f}{g}{h}{i}{j}.{k} {l}'
  
  
