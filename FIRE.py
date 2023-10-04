@@ -84,7 +84,7 @@ for x in range(10):
 	i='Redmi K20 Pro Premium Edition)'
 	j=random.randrange(1, 9)
 	k=random.randrange(1, 9)
-	l='Mobile Safari/537.36 OPR/58.2.2878.53403
+	l='Mobile Safari/537.36 OPR/58.2.2878.53403'
 	uak=f'{a}{b}/{c}{d}{e}{f}{g}{h}{i}{j}.{k} {l}'
  
  
