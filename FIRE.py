@@ -27,8 +27,8 @@ from rich.text import Text as tekz
 pretty.install()
 CON=sol()
 #------------------[ USER-AGENT ]-------------------#
-ua = ["Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/8612 (KHTML, like Gecko) Mobile/19A344 [FBAN/FBIOS;FBDV/iPhone14,2;FBMD/iPhone;FBSN/iOS OS;FBSV/15.0;FBSS/3;FBID/phone;FBLC/en_US;FBOP/5;FBCR/Djezzy]",]
-ua = ["Mozilla/5.0 (Linux; Android 11; Redmi K20 Pro Premium Edition Build/RKQ1.200826.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/105.0.5195.136 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/384.1.0.29.111;]",]
+ua = ["Mozilla/5.0 (Linux; U; Android 11; zh-cn; Redmi K30 5G Build/RKQ1.200826.002) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/89.0.4389.116 Mobile Safari/537.36 XiaoMi/MiuiBrowser/16.6.6 swan-mibrowser",]
+ua = ["Mozilla/5.0 (Linux; U; Android 10; de-de; Mi 10 Lite 5G Build/QKQ1.191222.002) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/71.0.3578.141 Mobile Safari/537.36 XiaoMi/MiuiBrowser/12.4.3-g [FB_IAB/FB4A;FBAV/434.0.0.36.115;]",]
 ua = ["Mozilla/5.0 (Linux; Android 12; Infinix X6815B Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/114.0.5735.196 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/338.1.0.36.118;]",]
 ua = ["Mozilla/5.0 (Linux; U; Android 8.1.0; zh-cn; OPPO R11s Build/OPM1.171019.011) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/70.0.3538.80 Mobile Safari/537.36 HeyTapBrowser/10.7.5.5 [FB_IAB/FB4A;FBAV/434.0.0.36.115]",]
 ua = ["Mozilla/5.0 (Linux; Android 12.0; HUAWEI Mate 50 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/95.0.4638.74 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/434.0.0.36.115;]",]
@@ -46,31 +46,50 @@ try:
 except Exception as e:
 	print('[[\x1b[1;92m+\x1b[1;97m] [\x1b[1;96mRIFAT')
 prox=open('.prox.txt','r').read().splitlines()
-ua=random.choice(ugen)
-for agent in range(random.randint(89999, 150000)):
-    a='Mozilla/5.0 (Linux; U; Android'
-    b=random.choice(['10','11','12','13'])
-    c='; en-us; MI CC9 Pro Premium Edition Build/RKQ1.200826.002; wv)'
-    d=random.randrange(7,13)
-    e='en-us; GT-'
-    f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-    g=random.randrange(111,999)
-    h=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-    i='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/'
-    j=random.randrange(11,99)
-    k='0'
-    l=random.randrange(1111,9999)
-    m=random.randrange(11,99)
-    n='Mobile Safari/537.36'
-    o='XiaoMi/MiuiBrowser/'
-    p=random.randrange(11,99)
-    q=random.randrange(11,99)
-    r=random.randrange(1,9)
-    s='-gn'
-    fullagent=f'{a} {b}{c} {d};  {e}{f}{g}{h}) {i}{j}.{k}.{l}.{m} {n} {o}{p}.{q}.{r}{s}'
-    ugen.append(fullagent)
+for xd in range(1000):
+	a='Mozilla/5.0 (Symbian/3; Series60/'
+	b=random.randrange(1, 9)
+	c=random.randrange(1, 9)
+	d='Nokia'
+	e=random.randrange(1000, 9999)
+	f='/110.021.0028; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/535.1 (KHTML, like Gecko) NokiaBrowser/'
+	g=random.randrange(1, 9)
+	h=random.randrange(1, 4)
+	i=random.randrange(1, 4)
+	j=random.randrange(1, 4)
+	k='Mobile Safari/535.1'
+	uaku=(f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}.{j} {k}')
+	ugen2.append(uaku)
  
  
+	aa='Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X)'
+	b=random.choice(['6','7','8','9','10','11','12'])
+	c=' en-us; GT-'
+	d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+	e=random.randrange(1, 999)
+	f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+	g='AppleWebKit/605.1.15 (KHTML, like Gecko) Chrome/'
+	h=random.randrange(73,100)
+	i='0'
+	j=random.randrange(4200,4900)
+	k=random.randrange(40,150)
+	l='Mobile/15E148 Safari/605.1'
+	uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
+	ugen.append(uaku2)
+for x in range(10):
+	a='Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-S'
+	b=random.randrange(1000, 9999)
+	c=random.randrange(1000, 9999)
+	d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+	e=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+	f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+	g=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+	h=random.randrange(1, 9)
+	i='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
+	j=random.randrange(1, 9)
+	k=random.randrange(1, 9)
+	l='Mobile/SM-T560 [FBAN/MessengerLite;FBAV/434.0.0.36.115;FBBV/445814864;FBDV/samsung;FBMD/samsung;FBSN/MessengerLite;FBSV/14.7.1;FBSS/3;FBID/phone;FBLC/en_US;FBOP/5;FBRV/445814864]'
+	uak=f'{a}{b}/{c}{d}{e}{f}{g}{h}{i}{j}.{k} {l}'
  
 def uaku():
 	try:
