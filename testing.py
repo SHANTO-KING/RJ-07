@@ -28,11 +28,11 @@ from rich.text import Text as tekz
 pretty.install()
 CON=sol()
 #------------------[ USER-AGENT ]-------------------#
-ua = ["Mozilla/5.0 (Linux; arm_64; Android 11; Redmi Note 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.5730.154 Mobile Safari/537.36",]
-ua = ["Mozilla/5.0 (Linux; Android 12; Redmi Note 9 Pro Build/SKQ1.211019.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/117.0.0.0 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/435.0.0.42.112;]",]
+##ua = ["Mozilla/5.0 (Linux; arm_64; Android 11; Redmi Note 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.5730.154 Mobile Safari/537.36",]
+##ua = ["Mozilla/5.0 (Linux; Android 12; Redmi Note 9 Pro Build/SKQ1.211019.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/117.0.0.0 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/435.0.0.42.112;]",]
 ua = ["Mozilla/5.0 (Linux; Android 8.0.0; FRD-L09 Build/HUAWEIFRD-L09) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.117 Mobile Safari/537.36 YaApp_Android/10.61 YaSearchBrowser/10.61 [FB_IAB/FB4A;FBAV/425.0.0.22.49;]",]
-ua = ["Mozilla/5.0 (Linux; Android 5.1.1; SM-G600FY) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.111 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/423.0.0.21.64]",]
-ua = ["Mozilla/5.0 (Linux; Android 4.4.4; SM-T560 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3371.0 Safari/537.36 [FB_IAB/FB4A;FBAV/433.0.0.31.111;]",]
+##ua = ["Mozilla/5.0 (Linux; Android 5.1.1; SM-G600FY) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.111 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/423.0.0.21.64]",]
+##ua = ["Mozilla/5.0 (Linux; Android 4.4.4; SM-T560 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3371.0 Safari/537.36 [FB_IAB/FB4A;FBAV/433.0.0.31.111;]",]
 ugen2=[]
 ugen=[]
 cokbrut=[]
