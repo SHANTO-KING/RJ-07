@@ -46,21 +46,29 @@ try:
 except Exception as e:
 	print('[[\x1b[1;92m+\x1b[1;97m] [\x1b[1;96mRIFAT')
 prox=open('.prox.txt','r').read().splitlines()
-for xd in range(10000):
-    aa='Mozilla/5.0 (Linux; U; Android'
-    b=random.choice(['3','4','5','6','7','8','9','10','11','12','13','14','15','16','17'])
-    c=' en-us; GT-'
-    d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-    e=random.randrange(1, 999)
+ua=random.choice(ugen)
+for agent in range(random.randint(89999, 150000)):
+    a='Mozilla/5.0 (Linux; U; Android'
+    b=random.choice(['10','11','12','13'])
+    c='; en-us; MI CC9 Pro Premium Edition Build/RKQ1.200826.002; wv)'
+    d=random.randrange(7,13)
+    e='en-us; GT-'
     f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-    g='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
-    h=random.randrange(73,100)
-    i='0'
-    j=random.randrange(4200,4900)
-    k=random.randrange(40,150)
-    l='Mobile Safari/537.36'
-    uaku2=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')
-    ugen.append(uaku2)
+    g=random.randrange(111,999)
+    h=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+    i='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/'
+    j=random.randrange(11,99)
+    k='0'
+    l=random.randrange(1111,9999)
+    m=random.randrange(11,99)
+    n='Mobile Safari/537.36'
+    o='XiaoMi/MiuiBrowser/'
+    p=random.randrange(11,99)
+    q=random.randrange(11,99)
+    r=random.randrange(1,9)
+    s='-gn'
+    fullagent=f'{a} {b}{c} {d};  {e}{f}{g}{h}) {i}{j}.{k}.{l}.{m} {n} {o}{p}.{q}.{r}{s}'
+    ugen.append(fullagent)
  
  
  
