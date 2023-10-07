@@ -34,6 +34,8 @@ ua = ["Mozilla/5.0 (Linux; U; Android 13; es-es; Redmi Pad Build/TP1A.220624.014
 ua = ["Mozilla/5.0 (Linux; Android 12; Armor X10 Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/117.0.0.0 Mobile Safari/537.36",]
 ua = ["Mozilla/5.0 (Linux; Android 12; 2209116AG) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.88 Mobile Safari/537.36 OPR/68.3.3557.65821",]
 ua = ["Mozilla/5.0 (Linux; Android 13; TECNO CK9n Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/108.0.5359.128 Mobile Safari/537.36[FBAN/EMA;FBLC/en_US;FBAV/361.0.0.12.5;]",]
+ua = [''FBAN/FB4A;FBAV/15.0.0.24.89;FBBV/36794039;[FBAN/FB4A;FBAV/15.0.0.24.89;FBPN/com.facebook.katana;FBLC/en_us;FBBV/898220221;FBCR/Comcast;FBMF/Vivo;FBBD/Vivo;FBDV/V21;FBSV/5.1;FBCA//armv7-m;FBDM/{density=3.0,width=1440,height=3200};FB_FW/1;] FBBK/1",]
+ua = [''FBAN/FB4A;FBAV/95.0.0.59.11;FBBV/24276924;[FBAN/FB4A;FBAV/95.0.0.59.11;FBPN/com.facebook.katana;FBLC/en_us;FBBV/385357099;FBCR/MTS Russia;FBMF/Vivo;FBBD/Vivo;FBDV/S1;FBSV/8.0;FBCA//armv7-m;FBDM/{density=2.6,width=1080,height=2340};FB_FW/1;] FBBK/1",]
 ugen2=[]
 ugen=[]
 cokbrut=[]
