@@ -34,7 +34,6 @@ ua = ["Mozilla/5.0 (Linux; U; Android 13; es-es; Redmi Pad Build/TP1A.220624.014
 ua = ["Mozilla/5.0 (Linux; Android 12; Armor X10 Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/117.0.0.0 Mobile Safari/537.36",]
 ua = ["Mozilla/5.0 (Linux; Android 12; 2209116AG) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.88 Mobile Safari/537.36 OPR/68.3.3557.65821",]
 ua = ["Mozilla/5.0 (Linux; Android 13; TECNO CK9n Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/108.0.5359.128 Mobile Safari/537.36[FBAN/EMA;FBLC/en_US;FBAV/361.0.0.12.5;]",]
-ua = [''Mozilla/5.0 (Linux; Android 9; Nokia X71 Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/117.0.0.0 Mobile Safari/537.36 (KHTML, like Gecko) Version/4.0 Chrome/100.0.4896.79 Mobile Safari/537.36[FBAN/EMA;FBLC/en_GB;FBAV/297.0.0.13.113;]",]
 ugen2=[]
 ugen=[]
 cokbrut=[]
