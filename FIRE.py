@@ -27,24 +27,21 @@ from rich.text import Text as tekz
 pretty.install()
 CON=sol()
 #------------------[ USER-AGENT ]-------------------#
-ua = ["FBAN/FB4A;FBAV/436.0.0.46.43;FBBV/325369658;FBRV/0;FBPN/com.facebook.katana;FBLC/ro_RO;FBMF/Infinix;FBBD/Infinix;FBDV/Infinix X687;FBSV/11;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.0,width=720,height=1440};FB_FW/1",]
-ua = ["FBAN/Moye-Moye;FBAV/335.0.0.57.127;FBPN/com.moye.moye;FBLC/moye_MOYE;FBBV/214125792;FBCR/Moye Moye;FBMF/Moye Moye;FBBD/Moye Moye;FBDV/Moye-Moye;FBSV/7.3.9;FBCA/Moye-Moye:armeabi;FBDM/{density=4.0,width=1440,height=2768}",]
-ua = ["FBAN/FB4A;FBAV/15.0.0.912;FBBV/3800125;[FBAN/FB4A;FBAV/280.0.0.48.122;FBBV/233235247;FBDM/{density=3.0,width=1080,height=2132};FBLC/en_US;FBRV/235412020;FBCR/airtel;FBMF/OPPO;FBBD/OPPO;FBPN/com.facebook.katana;FBDV/CPH1893;FBSV/9;FBOP/1;FBCA/armeabi-v7a:armeabi",]
-ua = 'Mozilla/5.0 (Linux; Android 7.1.1; SM-J510FN Build/NMF26X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.96 Mobile Safari/537.36 GSA/11.2.9.21.arm'
-ua = 'Mozilla/5.0 (Linux; U; Android 9; en-gb; CPH1881 Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.134 Mobile Safari/537.36 OppoBrowser/15.5.1.10'
-ua = 'Mozilla/5.0 (Linux; Android 9; STK-LX1 Build/HUAWEISTK-LX1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.101 Mobile Safari/537.36 YaApp_Android/10.91 YaSearchBrowser/10.91'
-ua = ["Mozilla/5.0 (Linux; Android 13; TECNO CK9n Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/108.0.5359.128 Mobile Safari/537.36[FBAN/EMA;FBLC/en_US;FBAV/361.0.0.12.5;]",]
+ua = 'Mozilla/5.0 (Linux; Android 13; Nokia XR20 Build/TKQ1.220807.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/113.0.5672.131 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/415.0.0.34.107;]'
+ua = 'Mozilla/5.0 (Linux; Android 11; Nokia C2 2nd Edition Build/RP1A.200720.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/114.0.5735.196 Mobile Safari/537.36[FBAN/EMA;FBLC/en_US;FBAV/364.0.0.14.77;]'
+ua = 'Mozilla/5.0 (Linux; Android 11; Nokia C1 2nd Edition Build/RP1A.201005.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/90.0.4430.210 Mobile Safari/537.36[FBAN/EMA;FBLC/en_US;FBAV/354.0.0.8.108;]'
+ua = 'Mozilla/5.0 (Linux; Android 12; Nokia XR21 Build/SKQ1.220201.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/113.0.5672.163 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/416.0.0.35.85;]'
 ugen2=[]
 ugen=[]
 cokbrut=[]
 ses=requests.Session()
 princp=[]
 try:
-	prox= requests.get('https://github.com/Pro-Max-420/Api/blob/main/prox.txt').text
+	prox= requests.get('https://github.com/RJSHANTO-217/Api/blob/main/prox.txt').text
 	open('.prox.txt','w').write(prox)
 	
 except Exception as e:
-	print('[[\x1b[1;92m+\x1b[1;97m] [\x1b[1;96mRIFAT')
+	print('[[\x1b[1;92m+\x1b[1;97m] [\x1b[1;96mSHANTO')
 prox=open('.prox.txt','r').read().splitlines()
 for xd in range(1000):
 	a='Mozilla/5.0 (Symbian/3; Series60/'
@@ -85,10 +82,10 @@ for x in range(10):
 	f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
 	g=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
 	h=random.randrange(1, 9)
-	i='; U; Bada/1.2; en-us) AppleWebKit/537.36 (KHTML, like Gecko) Dolfin/'
+	i='; Linux; U; Android 8.0.0; SM-A720F Build/R16NW)'
 	j=random.randrange(1, 9)
 	k=random.randrange(1, 9)
-	l='Mobile/18G82 [FBAN/FBIOS;FBAV/333.0.0.30.109;FBBV/313309308;FBDV/iPhone10,5;FBMD/iPhone;FBSN/iOS;FBSV/14.7.1;FBSS/3;FBID/phone;FBLC/pt_BR;FBOP/5;FBRV/315505842]'
+	l='Mobile/SM-A720F [FBAN/Orca-Android;FBAV/196.0.0.29.99;FBPN/com.facebook.orca;FBLC/th_TH;FBBV/135374479;FBCR/AIS;FBMF/samsung;FBBD/samsung;FBDV/SM-A720F;FBSV/8.0.0;FBCA/armeabi-v7a:armeabi;FBDM/{density=3.0,width=1080,height=1920};FB_FW/1;]'
 	uak=f'{a}{b}/{c}{d}{e}{f}{g}{h}{i}{j}.{k} {l}'
  
 def uaku():
@@ -97,7 +94,7 @@ def uaku():
 		for ub in ua:
 			ugen.append(ub)
 	except:
-		a=requests.get('https://github.com/SADIM-143/Ua.txt').text
+		a=requests.get('https://github.com/RJ217/Ua.txt').text
 		ua=open('.bbnew.txt','w')
 		aa=re.findall('line">(.*?)<',str(a))
 		for un in aa:
@@ -109,8 +106,8 @@ cokbrut=[]
 def back():
 	login()
 SHANTO="SHANTO"
-imt="SETU"
-ak="CLASS3-"
+imt="JENI"
+ak="awsome-"
  
 P = '\x1b[1;97m'
 M = '\x1b[1;91m'
@@ -183,7 +180,7 @@ def banner():
   Auther        :  RJ SHANTO
   Facebook      :  SH AN TO 
   TOOLS         :  PRIVATE
-  Version       :  V-3
+  Version       :  V-5
   WhatsApp      :  013108682**
 =============================================== \033[1;31m""")
 def login():
