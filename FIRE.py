@@ -28,7 +28,9 @@ pretty.install()
 CON=sol()
 #------------------[ USER-AGENT ]-------------------#
 ua = ["Davik/2.1.0 (Linux; U; Android 12.0.1; Infinix X676C Build/SP1A.210812.016) [FBAN/FB4A;FBAV/148.0.0.94.498;FBBV/346484979;FBDM/{density=3.0,width=1080,height=2376};FBLC/en_GB;FBRV/47141262;FBCR/Zong;FBMF/INFINIX;FBBD/Infinix;FBPN/com.facebook.katana;FBDV/Infinix X676C;FBSV/12;FBOP/19;FBCA/arm64-v8a:armeabi-v7a:armeabi;]",]
-ua = ["Davik/2.1.0 (Linux; U; Android 9.0.0; SM-G975F Build/R16NW) [FBAN/FB4A;FBAV/230.0.0.42.121;FBBV/156478510;FBDM/{density=4.0,width=1440,height=3040};FBLC/en_US;FBRV/54010646;FBCR/Verizon;FBMF/SAMSUNG;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-G975F;FBSV/12;FBOP/19;FBCA/arm64-v8a:armeabi-v7a:armeabi;]",]
+ua = "Mozilla/5.0 (iPhone; CPU iPhone OS 16_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/20F75 [FBAN/FBIOS;FBDV/iPhone12,3;FBMD/iPhone;FBSN/iOS;FBSV/16.5.1;FBSS/3;FBID/phone;FBLC/en_US;FBOP/5]"',
+ua = "Mozilla/5.0 (iPhone; CPU iPhone OS 16_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/20G81 [FBAN/FBIOS;FBAV/438.2.0.32.117;FBBV/530089995;FBDV/iPhone11,6;FBMD/iPhone;FBSN/iOS;FBSV/16.6.1;FBSS/3;FBID/phone;FBLC/en_US;FBOP/5;FBRV/533215597]",
+ua = "Mozilla/5.0 (Linux; Android 13; SM-A336B Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/118.0.0.0 Mobile Safari/537.36 Instagram 307.0.0.34.111 Android (33/13; 420dpi; 1080x2194; samsung; SM-A336B; a33x; s5e8825; en_US; 532277625)
 ugen2=[]
 ugen=[]
 cokbrut=[]
@@ -57,7 +59,7 @@ for xd in range(1000):
 	ugen2.append(uaku)
  
  
-	aa='Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X)'
+	aa='Mozilla/5.0 (iPhone; CPU iPhone OS 16_5_1 like Mac OS X)'
 	b=random.choice(['6','7','8','9','10','11','12'])
 	c=' en-us; GT-'
 	d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
@@ -68,41 +70,9 @@ for xd in range(1000):
 	i='0'
 	j=random.randrange(4200,4900)
 	k=random.randrange(40,150)
-	l='Mobile/15E148 Safari/605.1'
+	l='Mobile/20F75 Safari/605.1'
 	uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
 	ugen.append(uaku2)
-
-for agent in range(random.randint(89999, 100000)):
-    a='Mozilla/5.0 (iPod/'
-    aa=random.choice(['7.1','8.0','9.2','10.3','11.4','12.5','13.2','14.7','15.1','16.0'])
-    a1='; CPU iPhone OS'
-    b=random.choice(['3_1','3_2','3_3','16_5','13_4','3_0','4_0','15_0','11_0','12_1','13_3','14_2'])
-    n='like Mac OS X)'
-    c=random.randrange(7,12)
-    m='en-us; GT-'
-    d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-    e=random.randrange(100,999)
-    f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-    g='AppleWebKit/'
-    o=random.randrange(533,605)
-    p='1'
-    q=random.randrange(10,99)
-    r='(KHTML, like Gecko) Chrome/'
-    h=random.randrange(10,99)
-    i='0'
-    j=random.randrange(1000,9999)
-    k=random.randrange(10,99)
-    l='GSA/'
-    ll=random.randrange(155,159)
-    l1=random.randrange(1,9)
-    l2=random.randrange(111111111,999999999)
-    l3='Mobile/'
-    l4=random.choice(['18C79','18B92','18A374','17D47','16E23','15F91','14G60','13H15','12I82','11J33','10K04','09L78'])
-    l5='Safari/'
-    s=random.randrange(535,605)
-    t=random.randrange(1,9)
-    fullagent=f'{a}{aa}{a1} {b} {n} {c};  {m}{d}{e}{f}) {g}{o}.{p}.{q} {r}{h}.{i}.{j}.{k} {l}{ll}.{l1}.{l2} {l3}{l4} {l5}{s}.{t}'
-    ugen.append(fullagent)
  
 def uaku():
 	try:
