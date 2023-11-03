@@ -27,10 +27,8 @@ from rich.text import Text as tekz
 pretty.install()
 CON=sol()
 #------------------[ USER-AGENT ]-------------------#
-ua = 'Mozilla/5.0 (Linux; Android 13; Nokia XR20 Build/TKQ1.220807.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/113.0.5672.131 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/415.0.0.34.107;]'
-ua = 'Mozilla/5.0 (Linux; Android 11; Nokia C2 2nd Edition Build/RP1A.200720.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/114.0.5735.196 Mobile Safari/537.36[FBAN/EMA;FBLC/en_US;FBAV/364.0.0.14.77;]'
-ua = 'Mozilla/5.0 (Linux; Android 11; Nokia C1 2nd Edition Build/RP1A.201005.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/90.0.4430.210 Mobile Safari/537.36[FBAN/EMA;FBLC/en_US;FBAV/354.0.0.8.108;]'
-ua = 'Mozilla/5.0 (Linux; Android 12; Nokia XR21 Build/SKQ1.220201.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/113.0.5672.163 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/416.0.0.35.85;]'
+ua = ["Davik/2.1.0 (Linux; U; Android 12.0.1; Infinix X676C Build/SP1A.210812.016) [FBAN/FB4A;FBAV/148.0.0.94.498;FBBV/346484979;FBDM/{density=3.0,width=1080,height=2376};FBLC/en_GB;FBRV/47141262;FBCR/Zong;FBMF/INFINIX;FBBD/Infinix;FBPN/com.facebook.katana;FBDV/Infinix X676C;FBSV/12;FBOP/19;FBCA/arm64-v8a:armeabi-v7a:armeabi;]",]
+ua = ["Davik/2.1.0 (Linux; U; Android 9.0.0; SM-G975F Build/R16NW) [FBAN/FB4A;FBAV/230.0.0.42.121;FBBV/156478510;FBDM/{density=4.0,width=1440,height=3040};FBLC/en_US;FBRV/54010646;FBCR/Verizon;FBMF/SAMSUNG;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-G975F;FBSV/12;FBOP/19;FBCA/arm64-v8a:armeabi-v7a:armeabi;]",]
 ugen2=[]
 ugen=[]
 cokbrut=[]
@@ -59,20 +57,20 @@ for xd in range(1000):
 	ugen2.append(uaku)
  
  
-    aa = 'Mozilla/5.0 (iPhone; CPU iPhone OS 16_5_1 like Mac OS X)'
-    b = random.choice(['6', '7', '8', '9', '10', '11', '12'])
-    c = ' en-us; GT-'
-    d = random.choice(['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-    e = random.randrange(1, 999)
-    f = random.choice(['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-    g = 'AppleWebKit/605.1.15 (KHTML, like Gecko) Chrome/'
-    h = random.randrange(73, 100)
-    i = '0'
-    j = random.randrange(4200, 4900)
-    k = random.randrange(40, 150)
-    l = 'Mobile/20F75 Puffin/'
-    uaku2 = f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
-    ugen.append(uaku2)
+	aa='Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X)'
+	b=random.choice(['6','7','8','9','10','11','12'])
+	c=' en-us; GT-'
+	d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+	e=random.randrange(1, 999)
+	f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+	g='AppleWebKit/605.1.15 (KHTML, like Gecko) Chrome/'
+	h=random.randrange(73,100)
+	i='0'
+	j=random.randrange(4200,4900)
+	k=random.randrange(40,150)
+	l='Mobile/15E148 Safari/605.1'
+	uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
+	ugen.append(uaku2)
 
 for agent in range(random.randint(89999, 100000)):
     a='Mozilla/5.0 (iPod/'
@@ -198,7 +196,7 @@ def banner():
   Auther        :  RJ SHANTO
   Facebook      :  SH AN TO 
   TOOLS         :  PRIVATE
-  Version       :  V-5
+  Version       :  V-2
   WhatsApp      :  013108682**
 =============================================== \033[1;31m""")
 def login():
