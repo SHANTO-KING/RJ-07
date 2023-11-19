@@ -1287,12 +1287,19 @@ except Exception as e:
 	print('[[\x1b[1;92m+\x1b[1;97m] [\x1b[1;96mSHANTO')
 prox=open('.prox.txt','r').read().splitlines()
 for xd in range(1000):
-    a = 'Mozilla/5.0 (Series40; Nokia'
-    b = random.randint(100, 999)
-    c = '/11.81; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/'
-    d = f'{random.uniform(1, 3):.1f}'
-    uaku2= f'{a}{b}{c}{d}'
-	ugen.append(uaku2)
+	a='Mozilla/5.0 (Symbian/3; Series60/'
+	b=random.randrange(1, 9)
+	c=random.randrange(1, 9)
+	d='Nokia'
+	e=random.randrange(1000, 9999)
+	f='/110.021.0028; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/535.1 (KHTML, like Gecko) NokiaBrowser/'
+	g=random.randrange(1, 9)
+	h=random.randrange(1, 4)
+	i=random.randrange(1, 4)
+	j=random.randrange(1, 4)
+	k='Mobile Safari/535.1'
+	uaku=(f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}.{j} {k}')
+	ugen2.append(uaku)
  
  
 	aa = 'Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X)'
