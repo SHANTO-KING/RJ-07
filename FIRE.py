@@ -1291,8 +1291,8 @@ for xd in range(1000):
     b = random.randint(100, 999)
     c = '/11.81; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/'
     d = f'{random.uniform(1, 3):.1f}'
-    uaku= f'{a}{b}{c}{d}'
-	ugen2.append(uaku)
+    uaku2= f'{a}{b}{c}{d}'
+	ugen.append(uaku2)
  
  
 	aa = 'Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X)'
@@ -1303,8 +1303,8 @@ for xd in range(1000):
 	f = '0'
 	g = random.randrange(40, 150)
 	h = 'Mobile/15E148 Safari/604.1'
-	ugen.append(uaku2)
 	uaku2= f'{aa} {b};{c}{d}{e}{f}{g}{h}'
+    ugen.append(uaku2)
  
 for xd in range(1000):
     a='Mozilla/5.0 (Linux; Android'
