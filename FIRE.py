@@ -1266,4 +1266,4 @@ if __name__=='__main__':
 	except:pass
 	try:os.mkdir('/sdcard/4MBF-DATA/DUMP')
 	except:pass
-	login()
+	menu()
