@@ -171,7 +171,7 @@ def menu():
         x_shinchan('──'* 25)
         CYXIEON_GANTENG = input(f'{H}⌲{puti} Pilih : ')
         if CYXIEON_GANTENG in ['01','1']:
-            crack_publik()
+            crack_public()
         if CYXIEON_GANTENG in ['02','2']:
             dump_massal()
         elif CYXIEON_GANTENG in ['04','4']:
