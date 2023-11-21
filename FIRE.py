@@ -110,15 +110,7 @@ def clear():
 def back():
 	login()
 #------------------[ BAGIAN-MENU ]----------------#
-def menu(my_name,my_id):
-	try:
-		token = open('.token.txt','r').read()
-		cok = open('.cok.txt','r').read()
-	except IOError:
-		print('[×] Cookies Kadaluarsa ')
-		time.sleep(5)
-		login_lagi334()
-	os.system('clear')
+def menu():
 	banner()
 	ip = requests.get("https://api.ipify.org").text
 	print(f'========================================') 
@@ -707,7 +699,7 @@ if __name__=='__main__':
 	except:pass
 	try:os.system('touch .prox.txt')
 	except:pass
-login()
+    login()
 
 #>>>>> THANKS TO THIS HERE <<<<<<<#
 #>>>>> Alvino_Adijaya_Xy <<<<<#
