@@ -210,8 +210,8 @@ def menu(my_name,my_id):
 	sg = '# INFORMASI DATA AKUN TUMBAL'
 	fx = mark(sg, style='green')
 	sol().print(fx)
-	print(x+'['+h+'•'+x+'] USERNAME : '+str(my_name))
-	print(x+'['+h+'•'+x+'] USER ID     : '+str(my_id))
+	print(x+'['+h+'•'+x+'] USERNAME : '+str(name))
+	print(x+'['+h+'•'+x+'] USER ID     : '+str(id))
 	print(x+'['+h+'•'+x+'] IP ADDRESS  : '+str(sh['origin']))
 	io = '''[bold cyan][01] CRACK PUBLIK           [00] LOGOUT[bold cyan]'''
 	oi = nel(io, style='cyan')
@@ -1266,4 +1266,4 @@ if __name__=='__main__':
 	except:pass
 	try:os.mkdir('/sdcard/4MBF-DATA/DUMP')
 	except:pass
-	menu()
+	login()
