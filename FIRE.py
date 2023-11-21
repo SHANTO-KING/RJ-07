@@ -156,32 +156,6 @@ $$ |  $$ |$$ |  $$ |$$$$$$$$\  $$$$$$  |$$ |  $$ |      $$ /  $$ |$$$$$$$  |
   
 #----------[ BAGIAN-MENU ]----------#            
 def menu():
-        try:
-            token = open('.cyxieontoken.txt','r').read()
-            cok = open('.cyxieoncokies.txt','r').read()
-            tokene.append(token)
-            try:
-                baz_ganteng = requests.get('https://graph.facebook.com/me?fields=id,name&access_token='+tokene[0], cookies={'cookie':cok})
-                useridz = json.loads(baz_ganteng.text)['id']
-                username = json.loads(baz_ganteng.text)['name']
-            except KeyError:
-                x_shinchan('──'* 25)
-                print(f"{H}⌲{mer} Akun anda terkena limit atau mode free silakan ganti cookies atau ubah ke mode data :-(")
-                time.sleep(3)
-                login_cokies()
-        except requests.exceptions.ConnectionError:
-            x_shinchan('──'* 25)
-            exit(f"{H}⌲{mer} Koneksi Problem ")
-        except IOError:
-            x_shinchan('──'* 25)
-            print(f"{H}⌲{mer} Akun anda terkena limit atau mode free silakan ganti cookies atau ubah ke mode data :-(")
-            time.sleep(3)
-            login_cokies()
-        except IOError:
-            ganti_cokies()
-            x_shinchan('──'* 25)
-            exit(f"{H}⌲{mer} Cokies Expired ")
-        os.system('clear')
         banner()
         dic = {'1':'January','2':'February','3':'March','4':'April','5':'May','6':'June','7':'July','8':'August','9':'September','10':'October','11':'November','12':'December'}
         tgl = datetime.datetime.now().day
