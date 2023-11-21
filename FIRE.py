@@ -163,11 +163,6 @@ def menu():
         thn = datetime.datetime.now().year
         ip = requests.get("https://api.ipify.org").text
         x_shinchan('──'* 25)
-        print(f'USER NAME  : {username}')
-        print(f'USER ID    : {useridz}')
-        print(f'DDWWYYYY   : '+str(tgl)+'.'+str(bln)+'.'+str(thn))
-        print(f'ALAMAT IP  : {ip}')
-        x_shinchan('──'* 25)
         print(f'{H}⌲{puti} 01. CRACK ')
         print(f'{H}⌲{puti} 02. CRACK BRUTAL ')
         print(f'{H}⌲{puti} 03. CEK HASIL OK ')
