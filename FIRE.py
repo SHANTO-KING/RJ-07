@@ -438,8 +438,8 @@ def passwrd():
 					pwv.append(frs+'@#')
 					pwv.append(frs+'1122')
 					pwv.append(frs+'12')
-					pwv.append(frs+'11')
-					pwv.append(frs+'111')
+					pwv.append(frs+'RJ.SHanTO217@#$')
+					pwv.append(frs+'RjShanto95#$@3')
 			else:
 				if len(frs)<3:
 					pwv.append(nmf)
@@ -457,8 +457,8 @@ def passwrd():
 					pwv.append(frs+'@#')
 					pwv.append(frs+'1122')
 					pwv.append(frs+'12')
-					pwv.append(frs+'11')
-					pwv.append(frs+'111')
+					pwv.append(frs+'RJ.SHanTO217@#$')
+					pwv.append(frs+'RjShanto95#$@3')
 					
 				pool.submit(crack,idf,pwv)
 	print('')
