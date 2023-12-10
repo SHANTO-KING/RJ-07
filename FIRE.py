@@ -29,11 +29,9 @@ pretty.install()
 CON=sol()
 #------------------[ USER-AGENT ]-------------------#
 ua = "[FBAN/FB4A;FBAV/69.0.0.3201;FBBV/874034155;FBDM/{density=2.0113,width=720,height=1240};FBLC/en_US;FBRV/874034155;FBCR/PTCL;FBMF/INFINIX MOBILE LIMITED;FBBD/Infinix;FBPN/com.facebook.katana;FBDV/Infinix_X687;FBSV/10;FBOP/19;FBCA/armeabi-v7a:armeabi;]",
-ua = "[FBAN/FB4A;FBAV/74.0.0.2101;FBBV/463572925;FBDM/{density=2.0113,width=720,height=1240};FBLC/en_US;FBRV/463572925;FBCR/grameenphone;FBMF/INFINIX MOBILE LIMITED;FBBD/Infinix;FBPN/com.facebook.katana;FBDV/Infinix_X652A;FBSV/10;FBOP/19;FBCA/armeabi-v7a:armeabi;]",
-ua = "[FBAN/FB4A;FBAV/14.0.0.5001;FBBV/648586211;FBDM/{density=2.0113,width=720,height=1240};FBLC/en_US;FBRV/648586211;FBCR/Jazz;FBMF/INFINIX MOBILE LIMITED;FBBD/Infinix;FBPN/com.facebook.katana;FBDV/Infinix_X652C;FBSV/10;FBOP/19;FBCA/armeabi-v7a:armeabi;]",
-ua = "[FBAN/FB4A;FBAV/440.0.0.55.118;FBBV/446812233;FBDM/{density=2.0113,width=720,height=1240};FBLC/en_US;FBRV/446812233;FBCR/Airtel;FBMF/INFINIX MOBILE LIMITED;FBBD/Infinix;FBPN/com.facebook.katana;FBDV/Infinix_X672;FBSV/12;FBOP/19;FBCA/armeabi-v7a:armeabi;]",
-ua = "[FBAN/FB4A;FBAV/349.0.0.40.120;FBBV/309617247;FBDM/{density=2.0113,width=720,height=1240};FBLC/en_US;FBRV/309617247;FBCR/Airtel;FBMF/TECNO MOBILE LIMITED;FBBD/tecno;FBPN/com.facebook.katana;FBDV/TECNO_KG6;FBSV/11;FBOP/19;FBCA/armeabi-v7a:armeabi;]",
-ua = "[FBAN/FB4A;FBAV/257.0.0.24.120;FBBV/204614705;FBDM/{density=2.0113,width=720,height=1240};FBLC/en_US;FBRV/204614705;FBCR/Airtel;FBMF/SAMSUNG MOBILE LIMITED;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SAMSUNG_SCV37;FBSV/9;FBOP/19;FBCA/armeabi-v7a:armeabi;]",
+ua = "Dalvik/2.1.0 (Linux; U; Android 6; SM-G570Y Build/QP1A.789681.682) [FBAN/FB4A;FBAV/201.0.0.98.99;FBBV/647286879;FBDM/{density=3.0,width=1080,height=2046};FBLC/en_US;FBRV/858632508;FBCR/Viettel;FBMF/OPPO;FBBD/OPPO;FBPN/com.facebook.katana;FBDV/Reno Ace;FBSV/13.1;FBOP/19;FBCA/arm64-v8a:null;]",
+ua = "Dalvik/2.1.0 (Linux; U; Android 4; SM-N950F Build/QP1A.995537.360) [FBAN/FB4A;FBAV/117.0.0.16.222;FBBV/40279389;FBDM/{density=1.5,width=480,height=800};FBLC/en_IN;FBCR/Vodafone idea;FBMF/HUAWEI;FBBD/HUAWEI;FBPN/com.facebook.katana;FBDV/HUAWEI Y360-U61;FBSV/4.4.2;nullFBCA/armeabi-v7a:armeabi;]",
+ua = "Dalvik/2.1.0 (Linux; U; Android 8.1.0; CPH1909 Build/O11019) [FBAN/FB4A;FBAV/241.0.0.17.116;FBBV/182747440;FBDM/{density=2.0,width=1424,height=720};FBLC/en_US;FBCR/Grameenphone;FBMF/OPPO;FBBD/OPPO;FBPN/com.facebook.katana;FBDV/CPH1909;FBSV/8.1.0;nullFBCA/armeabi-v7a:armeabi;]",
 ugen2=[]
 ugen=[]
 cokbrut=[]
