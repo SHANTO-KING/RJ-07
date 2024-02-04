@@ -28,10 +28,11 @@ from rich.text import Text as tekz
 pretty.install()
 CON=sol()
 #------------------[ USER-AGENT ]-------------------#
-ua = "[FBAN/FB4A;FBAV/69.0.0.3201;FBBV/874034155;FBDM/{density=2.0113,width=720,height=1240};FBLC/en_US;FBRV/874034155;FBCR/PTCL;FBMF/INFINIX MOBILE LIMITED;FBBD/Infinix;FBPN/com.facebook.katana;FBDV/Infinix_X687;FBSV/10;FBOP/19;FBCA/armeabi-v7a:armeabi;]",
-ua = "Dalvik/2.1.0 (Linux; U; Android 6; SM-G570Y Build/QP1A.789681.682) [FBAN/FB4A;FBAV/201.0.0.98.99;FBBV/647286879;FBDM/{density=3.0,width=1080,height=2046};FBLC/en_US;FBRV/858632508;FBCR/Viettel;FBMF/OPPO;FBBD/OPPO;FBPN/com.facebook.katana;FBDV/Reno Ace;FBSV/13.1;FBOP/19;FBCA/arm64-v8a:null;]",
-ua = "Dalvik/2.1.0 (Linux; U; Android 4; SM-N950F Build/QP1A.995537.360) [FBAN/FB4A;FBAV/117.0.0.16.222;FBBV/40279389;FBDM/{density=1.5,width=480,height=800};FBLC/en_IN;FBCR/Vodafone idea;FBMF/HUAWEI;FBBD/HUAWEI;FBPN/com.facebook.katana;FBDV/HUAWEI Y360-U61;FBSV/4.4.2;nullFBCA/armeabi-v7a:armeabi;]",
-ua = "Dalvik/2.1.0 (Linux; U; Android 8.1.0; CPH1909 Build/O11019) [FBAN/FB4A;FBAV/241.0.0.17.116;FBBV/182747440;FBDM/{density=2.0,width=1424,height=720};FBLC/en_US;FBCR/Grameenphone;FBMF/OPPO;FBBD/OPPO;FBPN/com.facebook.katana;FBDV/CPH1909;FBSV/8.1.0;nullFBCA/armeabi-v7a:armeabi;]",
+ua = "Dalvik/2.1.0 (Linux; U; Android 9; Redmi Note 8T MIUI/V11.0.11.0.PCXEUXM) [FBAN/Orca-Android;FBAV/288.0.0.15.118;FBPN/com.facebook.orca;FBLC/pl_PL;FBBV/253310653;FBCR/PLAY (T-Mobile);FBMF/Xiaomi;FBBD/xiaomi;FBDV/Redmi Note 8T;FBSV/9;FBCA/arm64-v8a:null;FBDM/{density=2.75,width=1080,height=2130};FB_FW/1;] FBBK/1",
+ua = "Mozilla/5.0 (iPhone; CPU iPhone OS 15_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 [FBAN/FBIOS;FBDV/iPhone12,1;FBMD/iPhone;FBSN/iOS;FBSV/15.2;FBSS/3;FBID/phone;FBLC/en_US;FBOP/5]"
+ua = "Dalvik/2.1.0 (Linux; U; Android 11; Pixel 4 Build/RP1A.201005.004) [FBAN/FB4A;FBAV/370.0.0.42.223;FBPN/com.facebook.katana;FBLC/en_US;FBBV/351108786;FBCR/]"
+ua = "Dalvik/2.1.0 (Linux; U; Android 10; Infinix Build/QQ3A.200805.001) [FBAN/FB4A;FBAV/370.0.0.42.223;FBPN/com.facebook.katana;FBLC/en_US;FBBV/351108786;FBCR/]"
+ua = "Dalvik/2.1.0 (Linux; U; Android 11; Samsung Galaxy S21 Build/RP1A.201005.004) [FBAN/FB4A;FBAV/370.0.0.42.223;FBPN/com.facebook.katana;FBLC/en_US;FBBV/351108786;FBCR/]"
 ugen2=[]
 ugen=[]
 cokbrut=[]
@@ -60,34 +61,33 @@ for xd in range(1000):
 	ugen2.append(uaku)
  
  
-	aa='Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X)'
-	b=random.choice(['6','7','8','9','10','11','12'])
-	c=' en-us; GT-'
-	d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-	e=random.randrange(1, 999)
-	f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-	g='AppleWebKit/605.1.15 (KHTML, like Gecko) Chrome/'
-	h=random.randrange(73,100)
-	i='0'
-	j=random.randrange(4200,4900)
-	k=random.randrange(40,150)
-	l='Mobile/15E148 Safari/605.1'
-	uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
-	ugen.append(uaku2)
+	aa = 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_8 like Mac OS X)'
+	b = random.choice(['6','7','8','9','10','11','12'])
+	c = ' en-us; GT-'
+	d = random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+	e = random.randrange(1, 999)
+	f = random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+	g = 'AppleWebKit/605.1.15 (KHTML, like Gecko) Chrome/'
+	h = random.randrange(73,100)
+	i = '0'
+	j = random.randrange(4200,4900)
+	k = random.randrange(40,150)
+	l = 'Mobile/15E148 Safari/605.1'
+	uaku2 = f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
 for x in range(10):
-	a='Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-S'
-	b=random.randrange(1000, 9999)
-	c=random.randrange(1000, 9999)
-	d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-	e=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-	f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-	g=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-	h=random.randrange(1, 9)
-	i='; U; Bada/1.2; en-us) AppleWebKit/537.36 (KHTML, like Gecko) Dolfin/'
-	j=random.randrange(1, 9)
-	k=random.randrange(1, 9)
-	l='Mobile/18G82 [FBAN/FBIOS;FBAV/333.0.0.30.109;FBBV/313309308;FBDV/iPhone10,5;FBMD/iPhone;FBSN/iOS;FBSV/14.7.1;FBSS/3;FBID/phone;FBLC/pt_BR;FBOP/5;FBRV/315505842]'
-	uak=f'{a}{b}/{c}{d}{e}{f}{g}{h}{i}{j}.{k} {l}'
+    a = 'Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-S'
+    b = random.randrange(1000, 9999)
+    c = random.randrange(1000, 9999)
+    d = random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+    e = random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+    f = random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+    g = random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+    h = random.randrange(1, 9)
+    i = '; U; Bada/1.2; en-us) AppleWebKit/537.36 (KHTML, like Gecko) Dolfin/'
+    j = random.randrange(1, 9)
+    k = random.randrange(1, 9)
+    l = 'Mobile/18G82 [FBAN/FBIOS;FBAV/333.0.0.30.109;FBBV/313309308;FBDV/iPhone10,5;FBMD/iPhone;FBSN/iOS;FBSV/14.7.1;FBSS/3;FBID/phone;FBLC/pt_BR;FBOP/5;FBRV/315505842]'
+    uak = f'{a}{b}/{c}{d}{e}{f}{g}{h}{i}{j}.{k} {l}'
  
  
  
