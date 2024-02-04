@@ -182,7 +182,7 @@ def banner():
   Auther        :  RJ SHANTO
   Facebook      :  SH AN TO 
   TOOLS         :  PRIVATE
-  Version       :  V-2
+  Version       :  V-3
   WhatsApp      :  013108682**
 =============================================== \033[1;31m""")
 def login():
