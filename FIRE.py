@@ -45,7 +45,7 @@ prox=open('.prox.txt','r').read().splitlines()
 for xd in range(10000):
         aa='Mozilla/5.0 (Linux; Android 10; Nokia 1 Plus Build/QP1A.190711.020; wv)'
         b=random.choice(['6','7','8','9','10','11','12',])
-        c=f' TL-tl; {str(gt)}'
+        c='Android 10; Nokia 1 Plus Build/'
         g='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/105.0.5195.79'
         h=random.randrange(73,100)
         i='0'
