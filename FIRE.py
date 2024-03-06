@@ -73,7 +73,7 @@ for xd in range(1000):
 	uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
 	ugen.append(uaku2)
 for x in range(10):
-	a = 'Dalvik/2.1.0 (Linux; U; Android 10; Quest 2 Build/QQ3A.200805.001)'
+	a = 'Mozilla/5.0 (Linux; Android 7.0; SM-G935F Build/NRD90M; en-gb)'
 	b = random.randrange(1000, 9999)
 	c = random.randrange(1000, 9999)
 	d = random.choice(['A', 'B', 'C', 'D', 'E', 'F'])
@@ -81,14 +81,9 @@ for x in range(10):
 	f = random.choice(['A', 'B', 'C', 'D', 'E', 'F'])
 	g = random.choice(['A', 'B', 'C', 'D', 'E', 'F'])
 	h = random.randrange(1, 9)
-	i = ' [FBAN/OculusHorizon;FBAV/35.0.0.117.300;FBDV/Quest 2;FBCR/null;FBLC/en_US;FBSV/10;FBBD/oculus;FBBV/333880879;FBCA/arm64-v8a:;FBMF/Oculus;FBPN/com.oculus.horizon;FBVM/{'
-	j = random.randrange(100000000000000, 999999999999999)
-	k = random.randrange(100000000000000, 999999999999999)
-	l = '}'
-	uak = f'{a} [{b}/{c}{d}{e}{f}{g}{h};{i}"{j}":"35.0.0.145.300","{k}":"35.0.0.140.341"}{l}'
- 
- 
- 
+	i = ' AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.117 Mobile Safari/537.36 Puffin/7.1.1.'
+	j = random.randrange(10000, 99999)
+	uak = f'{a} AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.117 Mobile Safari/537.36 Puffin/7.1.1.{j}AP'
 def uaku():
 	try:
 		ua=open('bbnew.txt','r').read().splitlines()
