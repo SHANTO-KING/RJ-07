@@ -28,8 +28,10 @@ from rich.text import Text as tekz
 pretty.install()
 CON=sol()
 #------------------[ USER-AGENT ]-------------------#
-ua = "Mozilla/5.0 (Linux; Android 10; TECNO KE5 Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/89.0.4389.90 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/291.0.0.44.120;]",
-ua = "Mozilla/5.0 (Linux; Android 10; TECNO KD7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4629.2 Mobile Safari/537.36"
+ua = "[FBAN/FB4A;FBAV/68.0.0.3073;FBBV/874034155;FBDM/{density=2.0113,width=720,height=1240};FBLC/en_US;FBRV/874034155;FBCR/PTCL;FBMF/INFINIX MOBILE LIMITED;FBBD/Infinix;FBPN/com.facebook.katana;FBDV/Infinix_X687;FBSV/10;FBOP/19;FBCA/armeabi-v7a:armeabi;]",
+ua = "[FBAN/FB4A;FBAV/73.0.0.2024;FBBV/463572925;FBDM/{density=2.0113,width=720,height=1240};FBLC/en_US;FBRV/463572925;FBCR/grameenphone;FBMF/INFINIX MOBILE LIMITED;FBBD/Infinix;FBPN/com.facebook.katana;FBDV/Infinix_X652A;FBSV/10;FBOP/19;FBCA/armeabi-v7a:armeabi;]",
+ua = "[FBAN/FB4A;FBAV/13.0.0.4140;FBBV/648586211;FBDM/{density=2.0113,width=720,height=1240};FBLC/en_US;FBRV/648586211;FBCR/Jazz;FBMF/INFINIX MOBILE LIMITED;FBBD/Infinix;FBPN/com.facebook.katana;FBDV/Infinix_X652C;FBSV/10;FBOP/19;FBCA/armeabi-v7a:armeabi;]",
+ua = "[FBAN/FB4A;FBAV/439.0.0.44.117;FBBV/446812233;FBDM/{density=2.0113,width=720,height=1240};FBLC/en_US;FBRV/446812233;FBCR/Airtel;FBMF/INFINIX MOBILE LIMITED;FBBD/Infinix;FBPN/com.facebook.katana;FBDV/Infinix_X672;FBSV/12;FBOP/19;FBCA/armeabi-v7a:armeabi;]",
 ugen2=[]
 ugen=[]
 cokbrut=[]
@@ -58,22 +60,7 @@ for xd in range(1000):
 	ugen2.append(uaku)
  
  
-	aa='Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X)'
-	b=random.choice(['6','7','8','9','10','11','12'])
-	c=' en-us; GT-'
-	d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-	e=random.randrange(1, 999)
-	f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-	g='AppleWebKit/605.1.15 (KHTML, like Gecko) Chrome/'
-	h=random.randrange(73,100)
-	i='0'
-	j=random.randrange(4200,4900)
-	k=random.randrange(40,150)
-	l='Mobile/15E148 Safari/605.1'
-	uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
-	ugen.append(uaku2)
-for x in range(10):
-	a = 'Mozilla/5.0 (Linux; Android 7.0; SM-G935F Build/NRD90M; en-gb)'
+	a = 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko)'
 	b = random.randrange(1000, 9999)
 	c = random.randrange(1000, 9999)
 	d = random.choice(['A', 'B', 'C', 'D', 'E', 'F'])
@@ -81,9 +68,23 @@ for x in range(10):
 	f = random.choice(['A', 'B', 'C', 'D', 'E', 'F'])
 	g = random.choice(['A', 'B', 'C', 'D', 'E', 'F'])
 	h = random.randrange(1, 9)
-	i = ' AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.117 Mobile Safari/537.36 Puffin/7.1.1.'
-	j = random.randrange(10000, 99999)
-	uak = f'{a} AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.117 Mobile Safari/537.36 Puffin/7.1.1.{j}AP'
+	i = ' Mobile/16G77 Safari/604.1'
+	uak = f'{a} GSA/{b}.{c}{d}{e}{f}{g}{h}{i}'
+	
+for x in range(10):
+	a = 'Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-S'
+	b = random.randrange(1000, 9999)
+	c = random.randrange(1000, 9999)
+	d = random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+	e = random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+	f = random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+	g = random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+	h = random.randrange(1, 9)
+	i = '; U; Bada/1.2; en-us) AppleWebKit/537.36 (KHTML, like Gecko) Dolfin/'
+	j = random.randrange(1, 9)
+	k = random.randrange(1, 9)
+	l = 'Mobile/18G82 [FBAN/FBIOS;FBAV/333.0.0.30.109;FBBV/313309308;FBDV/iPhone10,5;FBMD/iPhone;FBSN/iOS;FBSV/14.7.1;FBSS/3;FBID/phone;FBLC/pt_BR;FBOP/5;FBRV/315505842]'
+	uak = f'{a}{b}/{c}{d}{e}{f}{g}{h}{i}{j}.{k} {l}'
 def uaku():
 	try:
 		ua=open('bbnew.txt','r').read().splitlines()
