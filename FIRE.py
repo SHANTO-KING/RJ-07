@@ -28,8 +28,8 @@ from rich.text import Text as tekz
 pretty.install()
 CON=sol()
 #------------------[ USER-AGENT ]-------------------#
-ua = "Dalvik/2.1.0 (Linux; U; Android 9; Redmi Note 8T MIUI/V11.0.11.0.PCXEUXM) [FBAN/Orca-Android;FBAV/288.0.0.15.118;FBPN/com.facebook.orca;FBLC/pl_PL;FBBV/253310653;FBCR/PLAY (T-Mobile);FBMF/Xiaomi;FBBD/xiaomi;FBDV/Redmi Note 8T;FBSV/9;FBCA/arm64-v8a:null;FBDM/{density=2.75,width=1080,height=2130};FB_FW/1;] FBBK/1",
-ua = "Dalvik/2.1.0 (Linux; U; Android 11; Samsung Galaxy S21 Build/RP1A.201005.004) [FBAN/FB4A;FBAV/370.0.0.42.223;FBPN/com.facebook.katana;FBLC/en_US;FBBV/351108786;FBCR/]"
+ua = "Mozilla/5.0 (Linux; Android 10; TECNO KE5 Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/89.0.4389.90 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/291.0.0.44.120;]",
+ua = "Mozilla/5.0 (Linux; Android 10; TECNO KD7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4629.2 Mobile Safari/537.36"
 ugen2=[]
 ugen=[]
 cokbrut=[]
@@ -73,19 +73,19 @@ for xd in range(1000):
 	uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
 	ugen.append(uaku2)
 for x in range(10):
-	a='Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-S'
-	b=random.randrange(1000, 9999)
-	c=random.randrange(1000, 9999)
-	d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-	e=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-	f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-	g=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-	h=random.randrange(1, 9)
-	i='; U; Bada/1.2; en-us) AppleWebKit/537.36 (KHTML, like Gecko) Dolfin/'
-	j=random.randrange(1, 9)
-	k=random.randrange(1, 9)
-	l='Mobile/18G82 [FBAN/FBIOS;FBAV/333.0.0.30.109;FBBV/313309308;FBDV/iPhone10,5;FBMD/iPhone;FBSN/iOS;FBSV/14.7.1;FBSS/3;FBID/phone;FBLC/pt_BR;FBOP/5;FBRV/315505842]'
-	uak=f'{a}{b}/{c}{d}{e}{f}{g}{h}{i}{j}.{k} {l}'
+	a = 'Dalvik/2.1.0 (Linux; U; Android 10; Quest 2 Build/QQ3A.200805.001)'
+	b = random.randrange(1000, 9999)
+	c = random.randrange(1000, 9999)
+	d = random.choice(['A', 'B', 'C', 'D', 'E', 'F'])
+	e = random.choice(['A', 'B', 'C', 'D', 'E', 'F'])
+	f = random.choice(['A', 'B', 'C', 'D', 'E', 'F'])
+	g = random.choice(['A', 'B', 'C', 'D', 'E', 'F'])
+	h = random.randrange(1, 9)
+	i = ' [FBAN/OculusHorizon;FBAV/35.0.0.117.300;FBDV/Quest 2;FBCR/null;FBLC/en_US;FBSV/10;FBBD/oculus;FBBV/333880879;FBCA/arm64-v8a:;FBMF/Oculus;FBPN/com.oculus.horizon;FBVM/{'
+	j = random.randrange(100000000000000, 999999999999999)
+	k = random.randrange(100000000000000, 999999999999999)
+	l = '}'
+	uak = f'{a} [{b}/{c}{d}{e}{f}{g}{h};{i}"{j}":"35.0.0.145.300","{k}":"35.0.0.140.341"}{l}'
  
  
  
@@ -158,7 +158,7 @@ while attemps < 12345677901:
     username = input(' \033[0;92mEnter Username: ')
     password = input(' \033[0;93mEnter Password: ')
  
-    if username == 't' and password == 'r':
+    if username == 'r' and password == 'j':
         print(' \033[0;92mYou Have Successfully Logged in.')
         break
     else:
@@ -429,6 +429,8 @@ def passwrd():
 					pwv.append(frs+'12345')
 					pwv.append(nmf)
 					pwv.append('57273200')
+					pwv.append('+-/-+RjShaNto+-/-+')
+					pwv.append('+217+rjshanto+217+')
 					pwv.append(frs+'@')
 					pwv.append(frs+'@123')
 					pwv.append(frs+'@@')
@@ -448,6 +450,8 @@ def passwrd():
 					pwv.append(frs+'12345')
 					pwv.append(nmf)
 					pwv.append('57273200')
+					pwv.append('+217+rjshanto+217+')
+					pwv.append('+-/-+RjShaNto+-/-+')
 					pwv.append(frs+'@')
 					pwv.append(frs+'@123')
 					pwv.append(frs+'@@')
