@@ -33,8 +33,8 @@ ua = ["Mozilla/5.0 (Linux; Android 7.1.2; Premium_Edition) AppleWebKit/537.36 (K
 ua = ["Mozilla/5.0 (iPhone; CPU iPhone OS 14_7_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 [FBAN/FBIOS;FBAV/333.0.0.30.109;FBBV/313309308;FBDV/iPhone10,5;FBMD/iPhone;FBSN/iOS;FBSV/14.7.1;FBSS/3;FBID/phone;FBLC/pt_BR;FBOP/5;FBRV/315505842]",]
 ua = ["Mozilla/5.0 (iPhone; CPU iPhone OS 14_7_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Mobile/18G82 FBAV/333.0.0.30.109;FBBV/313309308;FBDV/iPhone10,5;FBMD/iPhone;FBSN/iOS;FBSV/14.7.1;FBSS/3;FBID/phone;FBLC/pt_BR;FBOP/5;FBRV/315505842",]
 ua = ["[FBAN/FB4A;FBAV/396.1.0.28.104;FBBV/429650999;FBDM/{density=2.25,width=720,height=1452};FBLC/en_US;FBRV/437165341;FBCR/AIRTEL;FBMF/INFINIX MOBILE LIMITED;FBBD/INFINIX;FBPN/com.facebook.katana;FBDV/INFINIX X676C;FBSV/10;FBOP/1;FBCA/arm64-v8a:;]",]
-ua = "Mozilla/5.0 (Linux; Android 11; TECNO CD9) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.101 Mobile Safari/537.36',
-ua = "Mozilla/5.0 (Linux; Android 12; Redmi Note 11) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.77 Mobile Safari/537.36',
+ua = "Mozilla/5.0 (Linux; Android 11; TECNO CD9) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.101 Mobile Safari/537.36",
+ua = "Mozilla/5.0 (Linux; Android 12; Redmi Note 11) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.77 Mobile Safari/537.36",
 ugen2=[]
 ugen=[]
 cokbrut=[]
