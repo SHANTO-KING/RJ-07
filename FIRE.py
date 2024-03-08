@@ -75,15 +75,6 @@ for xd in range(1000):
 	uakuh=f'{aa} {b}; {c}) {g}{h}.{i}.{j}.{k} {l}'
 	ugen2.append(uaku)
     
-    aa='Mozilla/5.0 (iPhone; CPU iPhone OS'
-    b=random.choice(['10_0', '11_0', '12_0', '13_0', '14_0', '15_0'])
-    c=' like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/'
-    d=b.replace('_', '.')
-    e=' Mobile/15E148 Safari/'
-     f=random.choice(['604.1', '605.1.15'])
-     uakuh=f"{aa} {b}{c}{d} Mobile/15E148 Safari/{f}"
-     ugen2.append(uaku)
-    
 	aa='Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X)'
 	b=random.choice(['6','7','8','9','10','11','12'])
 	c=' en-us; GT-'
