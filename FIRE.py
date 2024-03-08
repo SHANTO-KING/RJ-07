@@ -60,7 +60,44 @@ for xd in range(1000):
 	uaku=(f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}.{j} {k}')
 	ugen2.append(uaku)
  
- 
+	aa='Mozilla/5.0 (Linux; Android'
+	b=random.choice(['5.0','6.0','7.0','8.1.0','9','10','11','12'])
+	c=random.choice(['SM-G973F'])
+	d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+	e=random.randrange(1, 999)
+	f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+	g='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/'
+	h=random.randrange(80,103)
+	i='0'
+	j=random.randrange(4200,4900)
+	k=random.randrange(40,150)
+	l='Mobile Safari/537.36 OPR/51.4.5237.26623'
+	uakuh=f'{aa} {b}; {c}) {g}{h}.{i}.{j}.{k} {l}'
+	ugen2.append(uaku)
+	
+	
+	aa = 'Mozilla/5.0 (Linux; Android'
+    b = random.choice(['5.0','6.0','7.0','8.1.0','9','10','11','12'])
+    c = random.choice(['SM-G973F', 'Infinix S4', 'Redmi Note 10', 'TECNO Phantom X', 'OnePlus 9'])
+    d = 'AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
+    e = random.uniform(80.0, 100.0)
+    f = '0'
+    g = random.randint(4200, 4900)
+    h = random.randint(40, 150)
+    i = 'Mobile Safari/537.36 OPR/51.4.5237.26623'
+    uakuh = f'{aa} {b}; {c}) {d}{e}.{f}.{g}.{h} {i}'
+    ugen2.append(uaku)
+    
+    
+    aa = 'Mozilla/5.0 (iPhone; CPU iPhone OS'
+    b = random.choice(['10_0', '11_0', '12_0', '13_0', '14_0', '15_0'])
+    c = ' like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/'
+    d = b.replace('_', '.')
+    e = ' Mobile/15E148 Safari/'
+     f = random.choice(['604.1', '605.1.15'])
+     uakuh = f"{aa} {b}{c}{d} Mobile/15E148 Safari/{f}"
+     ugen2.append(uaku)
+    
 	aa='Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X)'
 	b=random.choice(['6','7','8','9','10','11','12'])
 	c=' en-us; GT-'
@@ -76,19 +113,19 @@ for xd in range(1000):
 	uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
 	ugen.append(uaku2)
 for x in range(10):
-	a='Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-S'
-	b=random.randrange(1000, 9999)
-	c=random.randrange(1000, 9999)
-	d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-	e=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-	f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-	g=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-	h=random.randrange(1, 9)
-	i='; U; Bada/1.2; en-us) AppleWebKit/537.36 (KHTML, like Gecko) Dolfin/'
-	j=random.randrange(1, 9)
-	k=random.randrange(1, 9)
-	l='Mobile/18G82 [FBAN/FBIOS;FBAV/333.0.0.30.109;FBBV/313309308;FBDV/iPhone10,5;FBMD/iPhone;FBSN/iOS;FBSV/14.7.1;FBSS/3;FBID/phone;FBLC/pt_BR;FBOP/5;FBRV/315505842]'
-	uak=f'{a}{b}/{c}{d}{e}{f}{g}{h}{i}{j}.{k} {l}'
+    a = 'Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-S'
+    b = random.randrange(1000, 9999)
+    c = random.randrange(1000, 9999)
+    d = random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+    e = random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+    f = random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+    g = random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+    h = random.randrange(1, 9)
+    i = '; U; Bada/1.2; en-us) AppleWebKit/537.36 (KHTML, like Gecko) Dolfin/'
+    j = random.randrange(1, 9)
+    k = random.randrange(1, 9)
+    l = 'Mobile/18G82 [FBAN/FBIOS;FBAV/333.0.0.30.109;FBBV/313309308;FBDV/iPhone10,5;FBMD/iPhone;FBSN/iOS;FBSV/14.7.1;FBSS/3;FBID/phone;FBLC/pt_BR;FBOP/5;FBRV/315505842]'
+    uak = f'{a}{b}/{c}{d}{e}{f}{g}{h}{i}{j}.{k} {l}'
  
  
  
