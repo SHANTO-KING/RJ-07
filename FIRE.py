@@ -76,26 +76,26 @@ for xd in range(1000):
 	ugen2.append(uaku)
 	
 	
-	aa = 'Mozilla/5.0 (Linux; Android'
-    b = random.choice(['5.0','6.0','7.0','8.1.0','9','10','11','12'])
-    c = random.choice(['SM-G973F', 'Infinix S4', 'Redmi Note 10', 'TECNO Phantom X', 'OnePlus 9'])
-    d = 'AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
-    e = random.uniform(80.0, 100.0)
-    f = '0'
-    g = random.randint(4200, 4900)
-    h = random.randint(40, 150)
-    i = 'Mobile Safari/537.36 OPR/51.4.5237.26623'
-    uakuh = f'{aa} {b}; {c}) {d}{e}.{f}.{g}.{h} {i}'
+	aa ='Mozilla/5.0 (Linux; Android'
+    b=random.choice(['5.0','6.0','7.0','8.1.0','9','10','11','12'])
+    c=random.choice(['SM-G973F', 'Infinix S4', 'Redmi Note 10', 'TECNO Phantom X', 'OnePlus 9'])
+    d='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
+    e=random.uniform(80.0, 100.0)
+    f='0'
+    g=random.randint(4200, 4900)
+    h=random.randint(40, 150)
+    i='Mobile Safari/537.36 OPR/51.4.5237.26623'
+    uakuh=f'{aa} {b}; {c}) {d}{e}.{f}.{g}.{h} {i}'
     ugen2.append(uaku)
     
     
-    aa = 'Mozilla/5.0 (iPhone; CPU iPhone OS'
-    b = random.choice(['10_0', '11_0', '12_0', '13_0', '14_0', '15_0'])
-    c = ' like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/'
-    d = b.replace('_', '.')
-    e = ' Mobile/15E148 Safari/'
-     f = random.choice(['604.1', '605.1.15'])
-     uakuh = f"{aa} {b}{c}{d} Mobile/15E148 Safari/{f}"
+    aa='Mozilla/5.0 (iPhone; CPU iPhone OS'
+    b=random.choice(['10_0', '11_0', '12_0', '13_0', '14_0', '15_0'])
+    c=' like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/'
+    d=b.replace('_', '.')
+    e=' Mobile/15E148 Safari/'
+     f=random.choice(['604.1', '605.1.15'])
+     uakuh=f"{aa} {b}{c}{d} Mobile/15E148 Safari/{f}"
      ugen2.append(uaku)
     
 	aa='Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X)'
